@@ -78,5 +78,10 @@
     "name": "Ready for some football?",
     "answer": "fast && strong",
     "correct": true
+  },
+  {
+    "name": "Lighting a fire?",
+    "answer": "! firelit ||! haveMatches",
+    "correct": false
   }
 ]
