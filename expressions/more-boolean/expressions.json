@@ -58,5 +58,10 @@
     "name": "Coming to bookclub?",
     "answer": "member ===  ! outsSick",
     "correct": false
+  },
+  {
+    "name": "Coming to bookclub?",
+    "answer": "member  && !outsSick",
+    "correct": false
   }
 ]
