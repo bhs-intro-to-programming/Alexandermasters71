@@ -83,5 +83,10 @@
     "name": "Lighting a fire?",
     "answer": "! firelit ||! haveMatches",
     "correct": false
+  },
+  {
+    "name": "Lighting a fire?",
+    "answer": "! firelit || ! haveMatches",
+    "correct": false
   }
 ]
