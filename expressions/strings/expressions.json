@@ -82,5 +82,11 @@
     "answer": "'s'",
     "correct": false,
     "timestamp": 1661378354403
+  },
+  {
+    "name": "First character",
+    "answer": "'second'(1)",
+    "correct": false,
+    "timestamp": 1661378418507
   }
 ]
