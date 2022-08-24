@@ -94,5 +94,11 @@
     "answer": "'second'(0,1)",
     "correct": false,
     "timestamp": 1661378431419
+  },
+  {
+    "name": "First character",
+    "answer": "'second'[0]",
+    "correct": false,
+    "timestamp": 1661378495382
   }
 ]
