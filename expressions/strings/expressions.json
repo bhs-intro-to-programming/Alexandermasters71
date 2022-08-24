@@ -172,5 +172,11 @@
     "answer": "s [0]",
     "correct": false,
     "timestamp": 1661378927402
+  },
+  {
+    "name": "All but first",
+    "answer": "s.substring [1]",
+    "correct": false,
+    "timestamp": 1661379180713
   }
 ]
