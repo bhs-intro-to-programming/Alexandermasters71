@@ -148,5 +148,11 @@
     "answer": "names[5]",
     "correct": false,
     "timestamp": 1661378682879
+  },
+  {
+    "name": "All but first",
+    "answer": "'names'[5]",
+    "correct": false,
+    "timestamp": 1661378694276
   }
 ]
