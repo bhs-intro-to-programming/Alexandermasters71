@@ -10,5 +10,11 @@
     "answer": "'foobar'",
     "correct": true,
     "timestamp": 1661377305882
+  },
+  {
+    "name": "Indexing",
+    "answer": "'foo'",
+    "correct": false,
+    "timestamp": 1661378037816
   }
 ]
