@@ -100,5 +100,11 @@
     "answer": "'second'[0]",
     "correct": false,
     "timestamp": 1661378495382
+  },
+  {
+    "name": "First character",
+    "answer": "'Second'[0]",
+    "correct": false,
+    "timestamp": 1661378503423
   }
 ]
