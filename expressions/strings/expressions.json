@@ -124,5 +124,11 @@
     "answer": "'names' [5]",
     "correct": false,
     "timestamp": 1661378594609
+  },
+  {
+    "name": "First character",
+    "answer": "'names'[5]",
+    "correct": false,
+    "timestamp": 1661378598778
   }
 ]
