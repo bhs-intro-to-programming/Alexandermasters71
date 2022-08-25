@@ -5,7 +5,7 @@
 // drawing exercise to draw shapes. The argument to this function, time, is the
 // number of milliseconds (one millionth of a second) since the program started.
 const drawFrame = (time ) => {
-  clear();
+  clear(gravity);
   drawFilledCircle((time / 1) % width, height / 5, 45, 'blue');
   drawFallingTriangle(width / 2, 3);
 };
