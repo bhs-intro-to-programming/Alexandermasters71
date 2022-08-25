@@ -4,10 +4,10 @@
 // change the code in here using the same functions you had in the simple
 // drawing exercise to draw shapes. The argument to this function, time, is the
 // number of milliseconds (one millionth of a second) since the program started.
-const drawFrame = (time) => {
+const drawFrame = (4) => {
   clear();
   drawFilledCircle((time / 1) % width, height / 5, 45, 'blue');
-  drawFallingTriangle(width / 2, 15);
+  drawFallingTriangle(width / 2, 3);
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
