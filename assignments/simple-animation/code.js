@@ -9,6 +9,7 @@ const drawFrame = (time ) => {
   drawFilledCircle((time / 120) % width, height / 2, 40, 'blue' );
   drawFilledCircle((time / 1) % width, height / 5, 40, 'red' );
   drawFallingTriangle(width / 2, 3);
+  drawFilledCircle((time / 8) % width, (time/ 10) % height, 25, 'black');
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
@@ -46,5 +47,5 @@ drawFilledRect(5, height - 5, 45, 15, 'purple');
 
 DrawFilledcircle((time / 120) % width, height/2,40, 'purple');
 
-drawFilledCircle((time / 8) % width, (time/ 10) % height, 25, 'black');
+
 
