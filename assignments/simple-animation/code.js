@@ -44,4 +44,4 @@ animate(drawFrame);
 drawFilledrectangle( width, height / -1, 5000, 'blue' );
 drawFilledRect(5, height - 5, 45, 15, 'purple');
 
-DrawFilledcircle((time / 120) % width, height/5,40, 'purple');
+DrawFilledcircle((time / 120) % width, height/2,40, 'purple');
