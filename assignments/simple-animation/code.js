@@ -41,4 +41,4 @@ const drawFallingTriangle = (x, time) => {
 // of drawFrame either here or where it is defined. (Or, if you must, change it
 // the same way in both places.)
 animate(drawFrame);
-drawFilledrectangle( width, height / 2, 40, 'blue' );
+drawFilledrectangle( width, height / 2, 5000, 'blue' );
