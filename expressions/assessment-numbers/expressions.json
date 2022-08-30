@@ -61,5 +61,12 @@
     "answer": "Math.abs(a-b)",
     "correct": true,
     "timestamp": 1661897690461
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a%b",
+    "correct": true,
+    "timestamp": 1661897719445
   }
 ]
