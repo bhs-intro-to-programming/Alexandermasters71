@@ -215,5 +215,12 @@
     "answer": "storeOpen || ! isASale ",
     "correct": false,
     "timestamp": 1661897318004
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "! enoughSleep && ! keepingUp",
+    "correct": false,
+    "timestamp": 1661897407286
   }
 ]
