@@ -12,5 +12,12 @@
     "answer": "!enoughSleep && !eatenEnough",
     "correct": true,
     "timestamp": 1661895848438
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "! sleepy && ! dark ",
+    "correct": false,
+    "timestamp": 1661895882598
   }
 ]
