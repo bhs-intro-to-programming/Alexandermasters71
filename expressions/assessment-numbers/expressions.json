@@ -82,5 +82,12 @@
     "answer": "a + b / 2",
     "correct": false,
     "timestamp": 1661897825423
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "1/2(a+b)",
+    "correct": false,
+    "timestamp": 1661897858871
   }
 ]
