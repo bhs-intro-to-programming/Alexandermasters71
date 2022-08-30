@@ -61,5 +61,12 @@
     "answer": "toLowerCase(0)",
     "correct": false,
     "timestamp": 1661896838163
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(-3)",
+    "correct": false,
+    "timestamp": 1661897925481
   }
 ]
