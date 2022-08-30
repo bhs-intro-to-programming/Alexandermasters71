@@ -166,5 +166,12 @@
     "answer": "isSenior || invitedBySenior",
     "correct": true,
     "timestamp": 1661897108160
+  },
+  {
+    "name": "Can pay attention?",
+    "canonical": "!hungry && interested",
+    "answer": "hungry && ! interested",
+    "correct": false,
+    "timestamp": 1661897117936
   }
 ]
