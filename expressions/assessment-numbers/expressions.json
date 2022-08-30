@@ -26,5 +26,12 @@
     "answer": "1337*32",
     "correct": true,
     "timestamp": 1661896703976
+  },
+  {
+    "name": "Seconds in a day",
+    "canonical": "24 * 60 * 60",
+    "answer": "60*60*24",
+    "correct": true,
+    "timestamp": 1661897474615
   }
 ]
