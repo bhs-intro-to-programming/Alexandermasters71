@@ -138,5 +138,12 @@
     "answer": "fast && strong ",
     "correct": true,
     "timestamp": 1661896917837
+  },
+  {
+    "name": "Will we skip our trip to the store?",
+    "canonical": "!storeOpen || linesTooLong",
+    "answer": "! storeOpen || linesTooLong",
+    "correct": true,
+    "timestamp": 1661896982775
   }
 ]
