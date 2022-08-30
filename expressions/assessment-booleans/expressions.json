@@ -229,5 +229,12 @@
     "answer": "! storeOpen || ! isASale",
     "correct": true,
     "timestamp": 1661898338680
+  },
+  {
+    "name": "In the room where it happens?",
+    "canonical": "inTheClass || isProctor",
+    "answer": "inTheClass || isProctor",
+    "correct": true,
+    "timestamp": 1661898475732
   }
 ]
