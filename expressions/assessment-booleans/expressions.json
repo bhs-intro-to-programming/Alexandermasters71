@@ -145,5 +145,12 @@
     "answer": "! storeOpen || linesTooLong",
     "correct": true,
     "timestamp": 1661896982775
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "enoughSleep && KeepingUp",
+    "correct": false,
+    "timestamp": 1661897016246
   }
 ]
