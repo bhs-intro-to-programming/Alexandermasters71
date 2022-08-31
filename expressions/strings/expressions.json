@@ -12,5 +12,12 @@
     "answer": "\"foo\"",
     "correct": false,
     "timestamp": 1661984470988
+  },
+  {
+    "name": "Indexing",
+    "canonical": "'f'",
+    "answer": "\"f\"",
+    "correct": true,
+    "timestamp": 1661984473099
   }
 ]
