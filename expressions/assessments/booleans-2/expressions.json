@@ -75,5 +75,12 @@
     "answer": "enoughSleep && keepingUp",
     "correct": true,
     "timestamp": 1662069396968
+  },
+  {
+    "name": "Will we skip our trip to the store?",
+    "canonical": "!storeOpen || linesTooLong",
+    "answer": "! storeOpen || linesTooLong",
+    "correct": true,
+    "timestamp": 1662069405272
   }
 ]
