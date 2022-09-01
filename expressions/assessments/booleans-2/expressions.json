@@ -96,5 +96,12 @@
     "answer": "! storeOpen || ! isASale",
     "correct": true,
     "timestamp": 1662069423329
+  },
+  {
+    "name": "Having fun?",
+    "canonical": "done || !fun",
+    "answer": "done || ! fun",
+    "correct": true,
+    "timestamp": 1662069430537
   }
 ]
