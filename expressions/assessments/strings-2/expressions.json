@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1).toLowerCase()",
+    "answer": "s.substring(0,1).toUppercase() + s.substring(1,s.length).toLowerCase()",
+    "correct": false,
+    "timestamp": 1662069557902
+  }
+]
