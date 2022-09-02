@@ -48,7 +48,7 @@ drawFilledRect(5, height - 5, 45, 15, 'purple');
 
 DrawFilledcircle((time / 120) % width, height/2,40, 'purple');
 
-drawballandline()
+drawballandline(-1,20)
 
 
 
