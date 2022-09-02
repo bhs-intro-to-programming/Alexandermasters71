@@ -50,7 +50,7 @@ DrawFilledcircle((time / 120) % width, height/2,40, 'purple');
 
 drawballandline((time / 12) % width, (time/ 15) % height, 25, 'blue');
 
-const drawballandline => (x1+y1+x2+y2)
+
 
 
 
