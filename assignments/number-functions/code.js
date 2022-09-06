@@ -1,1 +1,3 @@
-Add =(A,B) => A+B
+const Add =(A,B) =>  {
+  return A+B;
+};
