@@ -1,3 +1,3 @@
-const subtrackt =(a,b) =>  {
+const subtract =(a,b) =>  {
   return a-b;
 };
