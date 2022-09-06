@@ -26,6 +26,6 @@ const averageOfTwo =(a,b) =>  {
   return (a+b)/2;
 };
 
-const distance =(a,b) =>  {
+const distance =(x1,y1) =>  {
   return Math.abs (x1-y1);
 };
