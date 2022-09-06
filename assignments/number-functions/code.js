@@ -1,1 +1,1 @@
-add=(A,B) => A+B
+Add =(A,B) => A+B
