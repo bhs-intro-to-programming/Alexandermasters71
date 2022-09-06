@@ -1,1 +1,1 @@
-const (A,B) => A+B
+add=(A,B) => A+B
