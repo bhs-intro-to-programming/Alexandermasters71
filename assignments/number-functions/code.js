@@ -1,1 +1,1 @@
-const add = (a+b)
+const add = (1+5)
