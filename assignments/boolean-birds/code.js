@@ -32,3 +32,7 @@ return  ! red && spotted
 const isGlobbyBird = (red,spotted) => {
 return  ! red && ! spotted
 }
+
+const eatsWorms = (flobbybird,bloggybird,flibblebird,globbybird) => {
+return  flobbybird && bloggybird && flibblebird && globbybird
+}
