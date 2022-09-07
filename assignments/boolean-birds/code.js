@@ -17,6 +17,6 @@
  *
  */
 
-const RedorSpotted =(bird) => {
+const Red=Spotted =(bird) => {
   return bird (red || spotted)
 }
