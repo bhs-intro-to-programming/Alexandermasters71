@@ -17,4 +17,6 @@
  *
  */
 
-isFlobbybird = (Red || Spotted)
+const isFlobbybird = (Red,Spotted) => {
+return  (Red || Spotted)
+}
