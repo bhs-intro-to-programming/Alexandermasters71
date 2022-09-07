@@ -17,4 +17,6 @@
  *
  */
 
-let x1 = ('red')
+const redOrSpotted =(bird) => {
+  return bird (red || spotted)
+}
