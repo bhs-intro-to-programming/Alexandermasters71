@@ -34,5 +34,5 @@ return  ! red && ! spotted
 }
 
 const eatsWorms = (FlobbyBird,BloggyBird,FlibbleBird,GlobbyBird) => {
-return  FlobbyBird ||  BloggyBird || FlibbleBird &&! GlobbyBird 
+return  FlobbyBird || BloggyBird || FlibbleBird &&! GlobbyBird 
 }
