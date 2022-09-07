@@ -38,5 +38,5 @@ const eatsWorms = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
 }
 
 const eatsNuts = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
-  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+  return FlobbyBirds || BloggyBirds || GlobbyBirds &&! FlibbleBird
 }
