@@ -17,6 +17,4 @@
  *
  */
 
-const Red=Spotted =(bird) => {
-  return bird (red || spotted)
-}
+isFlobbybird = (Red || Spotted)
