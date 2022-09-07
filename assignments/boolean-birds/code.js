@@ -18,5 +18,5 @@
  */
 
 const isFlobbybird = (Red,Spotted) => {
-return  (Red || Spotted)
+return  Red && Spotted
 }
