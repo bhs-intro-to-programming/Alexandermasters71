@@ -38,5 +38,5 @@ const eatsWorms = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
 }
 
 const eatsNuts = (Red,Spotted,FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
-  return Red && Spotted(FlobbyBirds) || Red && ! Spotted(BloggyBirds) || ! Red && ! Spotted (GlobbyBirds) ||! ! Red && Spotted(FlibbleBirds)
+  return FlobbyBirds (Red && Spotted) || BloggyBirds(Red && ! Spotted ) || GlobbyBirds(! Red && ! Spotted) ||! FlibbleBirds(! Red && Spotted)
 }
