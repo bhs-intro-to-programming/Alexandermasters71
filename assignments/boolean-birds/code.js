@@ -39,5 +39,9 @@ const eatsWorms = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
 
 
 const eatsFish = (isSpottedBird,isRedBird) => {
-  return  isRedBird || ! isSpottedBird
-}    
+  return  isRedBird || ! isSpottedBird 
+}   
+
+const eatsNuts = (isSpottedBird,isRedBird) => {
+  return ! isRedBird || isSpottedBird
+}
