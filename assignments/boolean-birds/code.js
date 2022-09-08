@@ -49,3 +49,7 @@ const eatsNuts = (isSpottedBird,isRedBird) => {
 const eatsMice = (isSpottedBird,isRedBird) => {
   return  ! isRedBird || ! isSpottedBird
 }
+
+const isRed = (redburd) => {
+  return redburd==='Flobby,Bloggy'
+}
