@@ -46,6 +46,6 @@ const eatsNuts = (isSpottedBird,isRedBird) => {
   return ! isRedBird || isSpottedBird
 }
 
-const eatsNuts = (isSpottedBird,isRedBird) => {
+const eatsMice = (isSpottedBird,isRedBird) => {
   return  isRedBird || isSpottedBird
 }
