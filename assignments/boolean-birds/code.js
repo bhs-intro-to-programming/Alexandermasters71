@@ -58,6 +58,6 @@ const isSpotted = (redburd) => {
   return redburd==='Flobby' ||redburd==='Flibble'
 }
 
-const isNotRed = (redburd) => {
-  return redburd==='Flibble'||redburd==='Globby'
+const isNotSpotted = (redburd) => {
+  return redburd==='Bloggy'||redburd==='Globby'
 }
