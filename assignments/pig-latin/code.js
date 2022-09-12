@@ -34,7 +34,7 @@
 
 
 
-s.search(/[aeiou]/, s.length-1) 
+
 
 const pigLatin = (w) => {
   return w
