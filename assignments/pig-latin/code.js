@@ -31,3 +31,11 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+
+
+s.search(/[aeiou]/, s.length-1) 
+
+const pigLatin = (w) => {
+  return w
+}
