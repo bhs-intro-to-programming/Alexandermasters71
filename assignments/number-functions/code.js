@@ -27,7 +27,7 @@ const averageOfTwo =(a,b) =>  {
 };
 
 const distance =(x1,y1) =>  {
-  return distance (x1-y1);
+  return distance(x1-y1);
 };
 
 const manhattanDistance =(x1,y1,x2,y2) =>  {
