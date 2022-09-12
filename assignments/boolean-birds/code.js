@@ -51,17 +51,17 @@ const eatsMice = (isSpottedBird,isRedBird) => {
 }
 
 const isRed = (bird) => {
-  return bird==='Flobby'||redburd==='Bloggy'
+  return bird==='Flobby'|| bird==='Bloggy'
 }
 
 const isSpotted = (bird) => {
-  return bird==='Flobby' ||redburd==='Flibble'
+  return bird==='Flobby' || bird==='Flibble'
 }
 
  const isNotSpotted = (bird) => {
-  return bird==='Bloggy'||redburd==='Globby'
+  return bird==='Bloggy'|| bird==='Globby'
 } 
 
 const isNotRed = (bird) => {
-  return bird ==='Flibble'||redburd==='Globby'
+  return bird ==='Flibble'|| bird==='Globby'
 }
