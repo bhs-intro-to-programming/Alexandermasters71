@@ -37,5 +37,5 @@
 
 
 const pigLatin = (w) => {
-  return w
+  return w.substring(w.search(/[aeiou]/),w.length)
 }
