@@ -30,3 +30,8 @@
  x += 5
  drawCircle(x*10, x*10, 8, 'blue', 1)
  drawCircle(x*10, x*10, 8, 'blue', 1)
+
+
+for (let x = 0; x < 100; x++) {
+drawCircle(x*10, x*10, 8, 'blue', 1)
+}
