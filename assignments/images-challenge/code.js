@@ -28,4 +28,4 @@
 
  
 
-drawCircle(100, 100, 8, 'blue', 1)
+ drawCircle(100(x++), 100, 8, 'blue', 1)
