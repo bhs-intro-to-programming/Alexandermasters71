@@ -27,4 +27,4 @@
 
 
  let drawline = (1,-5,6,-8,'blue',5)
-drawLine(x1, y1, x2, y2, color, lineWidth)
+drawLine(1, 2, 5, 7, 'blue', 3)
