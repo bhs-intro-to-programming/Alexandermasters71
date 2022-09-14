@@ -29,3 +29,5 @@
  
 
  drawCircle(10, 10, 8, 'blue', 1)
+ drawCircle(10, 10, 8, 'blue', 1)
+ x += 5 
