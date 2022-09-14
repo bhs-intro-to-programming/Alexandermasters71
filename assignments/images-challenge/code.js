@@ -27,4 +27,4 @@
 
 
  let drawline = (1,-5,6,-8,'blue',5)
-drawLine(1, 2, 100, 7, 'blue', 3)
+drawLine(1, 2, 100, 100, 'blue', 3)
