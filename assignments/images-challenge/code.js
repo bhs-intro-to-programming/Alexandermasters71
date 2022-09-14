@@ -27,7 +27,6 @@
 
 
  
-
- drawCircle(10, 10, 8, 'blue', 1)
- drawCircle(10, 10, 8, 'blue', 1)
- x += 5 
+ x += 5
+ drawCircle(x*10, x*10, 8, 'blue', 1)
+ drawCircle(x*10, x*10, 8, 'blue', 1)
