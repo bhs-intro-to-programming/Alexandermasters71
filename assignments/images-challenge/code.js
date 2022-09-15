@@ -28,6 +28,6 @@
 
  const fillwithcircles = () => {
 for (let x = 8; x < 100; x++) 
- return drawCircle(x+10, x+10, 8, 'blue', 1)
+ drawCircle(x+10, x+10, 8, 'blue', 1)
 }
 fillwithcircles();
