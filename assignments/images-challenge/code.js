@@ -35,6 +35,3 @@ for (let x = 2; x < 450; x++)
 fillwithcircles(); 
 
 
-const linewithcircles = () => {
-  for (let x=2; x < 450)
-}
