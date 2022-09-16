@@ -31,10 +31,10 @@
  const fillwithcircles = () => {
 for (let x = 0; x < 50; x++) 
 if (x > length) {
- drawFilledCircle(x*10, height/2 , 5, 'red', 1)
+ drawFilledCircle(x*10, height/2 , 15, 'red', 1)
 }
  }
-fillwithcircles(); 
+ 
 
 
 
