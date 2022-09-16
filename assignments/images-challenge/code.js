@@ -30,6 +30,7 @@
  
  const fillwithcircles = () => {
 for (let x = 0; x < 450; x++) 
+if (x*10 > width)
  drawCircle(x*10, height/2 , 15, 'blue', 1)
 }
 fillwithcircles(); 
