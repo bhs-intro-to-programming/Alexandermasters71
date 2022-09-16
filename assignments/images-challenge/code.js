@@ -30,7 +30,7 @@
  
  const fillwithcircles = () => {
 for (let x = 3; x < 450; x++) 
- drawCircle(x*10, x/10, 20, 'blue', 1)
+ drawCircle(x*10, x/10, 25, 'blue', 1)
 }
 fillwithcircles(); 
 
