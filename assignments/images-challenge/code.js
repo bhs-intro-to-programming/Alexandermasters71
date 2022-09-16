@@ -34,10 +34,6 @@ for (let x = 1; x < 450; x++)
 }
 fillwithcircles(); 
 
-const fillwithcircles = () => {
-for (let x = 1; x < 450; x++) 
- drawCircle(x*10, 50 , 5, 'blue', 1)
-}
-fillwithcircles();
+
 
 
