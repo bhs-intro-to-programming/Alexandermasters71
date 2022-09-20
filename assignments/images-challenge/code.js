@@ -37,5 +37,7 @@ if (x > length) {
  }
  }
 fillwithcircles(); 
- const alternatingcolors = ('blue','red')
+ const alternatingcolors = ('blue','red') => {
+   
+ }
 
