@@ -30,15 +30,15 @@
 
 
 const fillwithcircles = (r) => {
+  let a = 30  
+  let b = 2 
+  let d = 1
   for (let x = 0; x < 16.25; x++)
 
     if (x > length) {
-      drawFilledCircle(x(r*30), height / r*2, r*18, 'red', r)
+      drawFilledCircle(x*a, height / b, 18, 'red', d)
     }
 }
-fillwithcircles(1);
+fillwithcircles(18);
 
-// x * a, height / b, c, 'red', dlet a = 30  
-//  let b = 2 
- // let c = 18 
-//  let d = 1
+// x * a, height / b, c, 'red', d
