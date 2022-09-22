@@ -26,15 +26,15 @@
 
 
 
- 
- 
 
- const fillwithcircles = () => {
-for (let x = 0; x < 16.25; x++) 
 
-if (x > length) {
- drawFilledCircle(x*30, height/2 , 15, 'red', 1)
- }
- }
-fillwithcircles(); 
- 
+
+const fillwithcircles = () => {
+  for (let x = 0; x < 16.25; x++)
+
+    if (x > length) {
+      drawFilledCircle(x * 30, height / 2, 15, 'red', 1)
+    }
+}
+fillwithcircles();
+
