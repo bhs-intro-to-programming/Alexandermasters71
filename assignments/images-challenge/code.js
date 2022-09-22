@@ -30,7 +30,7 @@
 
 
 const fillwithcircles = () => {
-  let a = 35  
+  let a = 30  
   let b = 2 
   let c = 18 
   let d = 1
