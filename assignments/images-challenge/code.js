@@ -29,17 +29,16 @@
 
 
 
-const fillwithcircles = () => {
-  let a = 30  
-  let b = 2 
-  let c = 18 
-  let d = 1
+const fillwithcircles = (r) => {
   for (let x = 0; x < 16.25; x++)
 
     if (x > length) {
-      drawFilledCircle(x*a, height / b, c, 'red', d)
+      drawFilledCircle(x(r*30), height / r*2, r*18, 'red', r)
     }
 }
-fillwithcircles();
+fillwithcircles(1);
 
-// x * a, height / b, c, 'red', d
+// x * a, height / b, c, 'red', dlet a = 30  
+//  let b = 2 
+ // let c = 18 
+//  let d = 1
