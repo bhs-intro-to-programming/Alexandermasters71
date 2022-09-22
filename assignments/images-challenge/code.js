@@ -30,7 +30,7 @@
 
 
 const fillwithcircles = () => {
-  let a = 30  
+  let a = 40  
   let b = 2 
   let c = 18 
   let d = 1
@@ -42,3 +42,4 @@ const fillwithcircles = () => {
 }
 fillwithcircles();
 
+// x * a, height / b, c, 'red', d
