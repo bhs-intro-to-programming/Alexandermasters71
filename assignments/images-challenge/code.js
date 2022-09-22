@@ -30,7 +30,7 @@
 
 
 const fillwithcircles = () => {
-  let a = 30 + b == 2 + c == 18 + d == 1 
+  let (a = 30 + b == 2 + c == 18 + d == 1) 
   for (let x = 0; x < 16.25; x++)
 
     if (x > length) {
