@@ -28,10 +28,9 @@
 
 
 
-
+const numbCircles = math.Floor(width / d);
 const fillwithcircles = (k) => {
   const d = r * 2
-  const numbCircles = math.Floor(width / d);
   for (let x = 0; x < numbCircles; x++)
     if (x > length) {
       drawFilledCircle(x * 30, height / 2, 15, 'red')
