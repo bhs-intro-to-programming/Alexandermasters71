@@ -35,7 +35,7 @@ const numbCircles = math.Floor(width/d);
   for (let x = 0; x < numbCircles; x++)
 
     if (x > length) {
-      drawFilledCircle(x*a, height / b, k, 'red', k/18)
+      drawFilledCircle(x*30, height / 2, k, 'red', k/18)
     }
 }
 fillwithcircles(18);
