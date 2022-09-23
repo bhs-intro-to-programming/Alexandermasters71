@@ -29,14 +29,13 @@
 
 
 
-const fillwithcircles = (r) => {
-  let a = 30  
-  let b = 2 
-  let d = 1
-  for (let x = 0; x < r*0.89; x++)
+const fillwithcircles = (x) => {
+  const d = r*2
+const numbCircles = math.Floor(width/d);
+  for (let x = 0; x < numbCircles; x++)
 
     if (x > length) {
-      drawFilledCircle(x*a, height / b, r, 'red', r/18)
+      drawFilledCircle(x*a, height / b, x, 'red', x/18)
     }
 }
 fillwithcircles(18);
