@@ -28,8 +28,9 @@
 
 
 
-const numbCircles = Math.Floor(width / d);
+
 const fillwithcircles = (r) => {
+  const numbCircles = Math.Floor(width / d);
   const d = r * 2
   for (let x = 0; x < numbCircles; x++)
     if (x > length) {
