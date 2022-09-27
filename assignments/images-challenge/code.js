@@ -36,5 +36,5 @@ const fillwithcircles = (r) => {
       drawFilledCircle(x * 30  , height / 2, 15, 'red')
     }
 } 
- fillwithcircles(15);
+ fillwithcircles(12);
 
