@@ -30,8 +30,8 @@
 let d = 1
 const numbCircles = Math.floor(width / d)
 const fillwithcircles = (r) => {
-  let d = 1
-  const d = r * 2
+  let y = 2
+  let y = r * 2
   for (let x = 0; x < numbCircles; x++)
     if (x > length) {
       drawFilledCircle(x* 30 , height / 2, 15, 'red')
