@@ -27,7 +27,7 @@
 
 
 
-let d = 1
+let d = 2
 const numbCircles = Math.floor(width / d)
 const fillwithcircles = () => {
   for (let x = 0; x < numbCircles; x++) {
