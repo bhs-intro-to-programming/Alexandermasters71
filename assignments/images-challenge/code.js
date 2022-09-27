@@ -38,4 +38,3 @@ const fillwithcircles = (r) => {
 } 
  fillwithcircles(18);
 
-// x * a, height / b, c, 'red', d
