@@ -33,7 +33,7 @@ const fillwithcircles = (r) => {
   const d = r * 2
   for (let x = 0; x < numbCircles; x++)
     if (x > length) {
-      drawFilledCircle(X*numbCircles-1  , height / 2, 15, 'red')
+      drawFilledCircle(X*30 + numbCircles-1  , height / 2, 15, 'red')
     }
 } 
  fillwithcircles(12);
