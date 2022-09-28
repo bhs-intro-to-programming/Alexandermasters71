@@ -28,9 +28,8 @@
 
 
 let d = 2
-const numbCircles = Math.floor(width / d)
 const fillwithcircles = (q) => {
-  for (let x = 0; x <  numbCircles; x++) {
+  for (let x = 0; x < width  ; x++) {
     if (x > length) {
       drawFilledCircle(x*30 , height / 2, 15, 'red');
     }
