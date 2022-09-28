@@ -36,5 +36,5 @@ const fillwithcircles = (q) => {
     }
 } 
 }
- fillwithcircles(90);
+ fillwithcircles(20);
 
