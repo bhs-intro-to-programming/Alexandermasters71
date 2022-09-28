@@ -28,12 +28,12 @@
 
 
 let d = 2
-const fillwithcircles = (q) => {
-  for (let x = 0; x > 0 ; x++) {
+const fillwithcircles = () => {
+  for (let x = 0; x > 20 ; x++) {
     if (x < length) {
       drawFilledCircle(x*30 , height / 2, 15, 'red');
     }
 } 
 }
- fillwithcircles(0);
+ fillwithcircles();
 
