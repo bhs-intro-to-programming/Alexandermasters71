@@ -36,4 +36,4 @@ const fillwithcircles = (r) => {
     drawFilledCircle(offset + d * x, height / 2, r, 'red')
   }
 }
-fillwithcircles(15);
+fillwithcircles(23);
