@@ -27,13 +27,12 @@
 
 //const alternatingcolors = ('blue' || 'red') ; {
 //if alternatingcolors = 'red'}
-let d = 1
-const numbCircles = Math.floor(width / d)
+
 const fillwithcircles = (r) => {
+  let d = r*2
+  const numbCircles = Math.floor(width / d)
   for (let x = 0; x <  numbCircles/r; x++) {
-    if (x > length) {
-      drawFilledCircle(x*30 , height / 2, 15, 'red')
-    }
+    drawFilledCircle(d*x , height / 2, r, 'red')
 } 
 }
  fillwithcircles(30);
