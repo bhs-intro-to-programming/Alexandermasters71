@@ -25,8 +25,6 @@
  */
 
 
-//const alternatingcolors = ('blue' || 'red') ; {
-//if alternatingcolors = 'red'}
 
 const fillwithcircles = (r) => {
   const d = r * 2
@@ -37,3 +35,16 @@ const fillwithcircles = (r) => {
   }
 }
 fillwithcircles(23);
+
+const lineOCirclesAlternating = (r) => {
+  const changingcolors = ()
+  x % 2 === 0 ? "blue" : "red"
+  const d = r * 2
+  const numbCircles = Math.floor(width / d)
+  const offset = width - (d * numbCircles); 
+  for (let x = 0; x < numbCircles; x++) {
+    drawFilledCircle(offset + d * x, height / 2, r, 'changingcolors')
+  }
+}
+fillwithcircles(23);
+
