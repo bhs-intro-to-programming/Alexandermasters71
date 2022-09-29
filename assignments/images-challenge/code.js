@@ -25,14 +25,14 @@
  */
 
 
-
+let alternatingcolors = ('blue' || 'red')
 
 let d = 1
 const numbCircles = Math.floor(width / d)
 const fillwithcircles = (r) => {
   for (let x = 0; x <  numbCircles/r; x++) {
     if (x > length) {
-      drawFilledCircle(x*30 , height / 2, 15, 'red')
+      drawFilledCircle(x*30 , height / 2, 15, 'alternatingcolors')
     }
 } 
 }
