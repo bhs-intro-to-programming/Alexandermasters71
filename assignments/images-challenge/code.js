@@ -37,8 +37,8 @@ const fillwithcircles = (r) => {
 fillwithcircles(23);
 
 const lineOCirclesAlternating = (r) => {
-  const changingcolors = ()
-  x % 2 === 0 ? "blue" : "red"
+  const changingcolors = ()=>{
+  x % 2 === 0 ? "blue" : "red"}
   const d = r * 2
   const numbCircles = Math.floor(width / d)
   const offset = width - (d * numbCircles); 
@@ -47,4 +47,3 @@ const lineOCirclesAlternating = (r) => {
   }
 }
 fillwithcircles(23);
-
