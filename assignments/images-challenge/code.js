@@ -25,8 +25,8 @@
  */
 
 
-let alternatingcolors = ('blue' || 'red')
-if alternatingcolors = 'red'
+const alternatingcolors = ('blue' || 'red') ; {
+if alternatingcolors = 'red')
 let d = 1
 const numbCircles = Math.floor(width / d)
 const fillwithcircles = (r) => {
@@ -37,4 +37,3 @@ const fillwithcircles = (r) => {
 } 
 }
  fillwithcircles(30);
-
