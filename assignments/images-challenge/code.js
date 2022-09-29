@@ -31,8 +31,9 @@
 const fillwithcircles = (r) => {
   let d = r*2
   const numbCircles = Math.floor(width / d)
+  const offset = width-(d*numbCircles)
   for (let x = 0; x < numbCircles; x++) {
-    drawFilledCircle(d*x , height / 2, r, 'red')
+    drawFilledCircle(offset/2+d*x , height / 2, r, 'red')
 } 
 }
  fillwithcircles(30);
