@@ -29,9 +29,9 @@
 //if alternatingcolors = 'red'}
 
 const fillwithcircles = (r) => {
-  let d = r * 2
+  const d = r * 2
   const numbCircles = Math.floor(width / d)
-  const offset = width - (d * numbCircles)
+  const offset = (width - (d * numbCircles)) / 2; 
   for (let x = 0; x < numbCircles; x++) {
     drawFilledCircle(offset + d * x, height / 2, r, 'red')
   }
