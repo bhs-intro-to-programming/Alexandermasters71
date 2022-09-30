@@ -5,12 +5,22 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
-const averageWeight = (a=totalWeight,b=numberOfItems) => {
-return averageWeight = a/b
-}
+//const averageWeight = (a=totalWeight,b=numberOfItems) => {
+//return averageWeight = a/b
+//}
 
-const hypotenuse = (a**2,b**2,c**2); {
-return c**2 == a**2 + b**2 
-}
+//const hypotenuse = (a**2,b**2,c**2); {
+//return c**2 == a**2 + b**2 
+//} 
 
 
+
+//let maxRadius = (width,height) => {
+  //return width = Math.floor, Math.abs
+//}
+
+ const numcircles = (radius,width) => {
+   d=2
+   const numcircles = Math.floor(width/d)
+   radius = 2 
+ }
