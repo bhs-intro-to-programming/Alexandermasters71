@@ -27,4 +27,6 @@ const emit = (a, b, product) => {
     //drawfilledcircle(offset*r,height/2,r,'blue')
  //}
 
- const offset = (widthInPixles,width)
+ const offset = (widthInPixles,width) => { 
+   
+ }
