@@ -13,14 +13,18 @@ const emit = (a, b, product) => {
 //return c**2 == a**2 + b**2 
 //} 
 
-
+//need to work on 3&4
 
 //let maxRadius = (width,height) => {
   //return width = Math.floor, Math.abs
 //}
 
- const numcircles = (radius,width) => {
-   d=2
-   const numcircles = Math.floor(width/d)
-   radius = 2 
- }
+ //const numcircles = (radius,width) => {
+   //const d=2
+   //const radius=2
+   //const offset = (r/2)
+   //const numcircles = Math.floor(width/d)
+    //drawfilledcircle(offset*r,height/2,r,'blue')
+ //}
+
+ const offset = (widthInPixles,width)
