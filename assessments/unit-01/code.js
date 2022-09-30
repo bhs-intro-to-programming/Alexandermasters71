@@ -9,6 +9,7 @@ const averageWeight = (a=totalWeight,b=numberOfItems) => {
 return averageWeight = a/b
 }
 
-const hypotenuse = (a**2,b**2,c**2) => {
-return c**2 = a**2 + b**2 
+const hypotenuse = (a**2,b**2,c**2); {
+return c**2 == a**2 + b**2 
 }
+
