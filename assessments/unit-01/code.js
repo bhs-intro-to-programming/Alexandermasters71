@@ -13,7 +13,7 @@ const emit = (a, b, product) => {
 //return c**2 == a**2 + b**2 
 //} 
 
-//need to work on 3&4
+//need to work on 3,4 & 5
 
 //let maxRadius = (width,height) => {
   //return width = Math.floor, Math.abs
@@ -27,6 +27,10 @@ const emit = (a, b, product) => {
     //drawfilledcircle(offset*r,height/2,r,'blue')
  //}
 
- const offset = (widthInPixles,width) => { 
-   
+ //const offset = (widthInPixles,width) => { 
+//const 
+ //}
+
+ const canSleepIN = (weekday,vacation) => {
+   canSleepIN = ! weekday, canSleepIN = vacation 
  }
