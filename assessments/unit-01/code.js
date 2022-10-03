@@ -31,6 +31,11 @@ const emit = (a, b, product) => {
 //const 
  //}
 
- const canSleepIN = (weekday,vacation) => {
-   canSleepIN = ! weekday, canSleepIN = vacation 
- }
+ //const canSleepIN = (weekday,vacation) => {
+  // canSleepIN = ! weekday, canSleepIN = vacation 
+ //}
+
+
+const canGoToProm = (isSenior,invitedBySenior,isntSenior) => {
+   ifcanGoToProm = isSenior || invitedBySenior || ! isntsenior
+}
