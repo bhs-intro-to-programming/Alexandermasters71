@@ -37,5 +37,5 @@ const emit = (a, b, product) => {
 
 
 const canGoToProm = (isSenior,invitedBySenior,isntSenior) => {
-   ifcanGoToProm = isSenior || invitedBySenior || ! isntsenior
+   return canGoToProm = isSenior || invitedBySenior || ! isntSenior
 }
