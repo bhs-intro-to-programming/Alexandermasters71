@@ -40,3 +40,8 @@ const anyOverOneHundred = (array) => {
     return false
   }
 }
+
+
+const pyramid = (number) => {
+  num 
+}
