@@ -18,9 +18,18 @@ const fireAlarm = (fireAlarmPulled, smokeDetected, plannedDrill) => {
 
 const canBepresident = (personsAge, naturalBornCitizen, numberOfYears) => {
   const personsAge
-  for (x = 0; 0 > x, x++)
-    const naturalbornCitizen = (bornInTheUs) => {
-      true = bornInTheUs
-      false = ! bornInTheUs
+  if (x = 0; 0 > x, x++)
+  const naturalbornCitizen = (bornInTheUs) => {
+    true = bornInTheUs
+    false = !bornInTheUs
+    const numberOfYears = (overAnAge) => {
+      overanAge = 0
+      if (x = 0; 0 > x, x++ )
     }
+
+  }
+}
+
+const willSeeTweet = (followed,blocked) => {
+  
 }
