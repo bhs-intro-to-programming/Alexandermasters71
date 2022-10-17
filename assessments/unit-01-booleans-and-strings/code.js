@@ -13,14 +13,14 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 const fireAlarm = (fireAlarmPulled, smokeDetected, plannedDrill) => {
   true = fireAlarmPulled || smokeDetected || plannedDrill
-  false = ! fireAlarmPulled || ! smokeDetected || ! plannedDrill
+  false = !fireAlarmPulled || !smokeDetected || !plannedDrill
 }
 
- const canBepresident = (personsAge,naturalBornCitizen,numberOfYears) => {
-   const personsAge 
-   for (x = 0;0>x,x++)
-   const naturalbornCitizen = (bornInTheUs) => {
-     true = bornInTheUs
-     false = ! bornInTheUs
-   }
- }
+const canBepresident = (personsAge, naturalBornCitizen, numberOfYears) => {
+  const personsAge
+  for (x = 0; 0 > x, x++)
+    const naturalbornCitizen = (bornInTheUs) => {
+      true = bornInTheUs
+      false = !bornInTheUs
+    }
+}
