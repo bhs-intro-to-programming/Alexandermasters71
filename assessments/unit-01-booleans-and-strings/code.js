@@ -11,7 +11,16 @@ const rand = (n) => Math.floor(Math.random() * n);
 // credit for a clear and simple working function.
 
 
-const fireAlarm = (fireAlarmPulled,smokeDetected,plannedDrill) => {
-  return true = fireAlarm = fireAlarmPulled || smokeDetected || plannedDrill 
-  
+const fireAlarm = (fireAlarmPulled, smokeDetected, plannedDrill) => {
+  true = fireAlarmPulled || smokeDetected || plannedDrill
+  false = ! fireAlarmPulled || ! smokeDetected || ! plannedDrill
 }
+
+ const canBepresident = (personsAge,naturalBornCitizen,numberOfYears) => {
+   const personsAge 
+   for (x = 0;0>x,x++)
+   const naturalbornCitizen = (bornInTheUs) => {
+     true = bornInTheUs
+     false = ! bornInTheUs
+   }
+ }
