@@ -21,6 +21,6 @@ const canBepresident = (personsAge, naturalBornCitizen, numberOfYears) => {
   for (x = 0; 0 > x, x++)
     const naturalbornCitizen = (bornInTheUs) => {
       true = bornInTheUs
-      false = !bornInTheUs
+      false = ! bornInTheUs
     }
 }
