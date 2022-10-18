@@ -17,14 +17,14 @@ const fireAlarm = (fireAlarmPulled, smokeDetected, plannedDrill) => {
 }
 
 const canBepresident = (personsAge, naturalBornCitizen, numberOfYears) => {
-  const personsAge
-  if (x = 0; 0 > x, x++)
+  
+  //if (x = 0; 0 > x, x++)
   const naturalbornCitizen = (bornInTheUs) => {
     true = bornInTheUs
     false = !bornInTheUs
     const numberOfYears = (overAnAge) => {
       overanAge = 0
-      if (x = 0; 0 > x, x++ )
+    //  if (x = 0; 0 > x, x++ )
     }
 
   }
