@@ -21,6 +21,6 @@ const canBePresident = (age, naturalBornCitizen, numberOfYears) => {
 };
 
 const willSeeTweet = (followed,blocked,followedRt) => {
-  return (followed,followedRt) && blocked
-}
+  return (followed,followedRt) && blocked;
+};
 
