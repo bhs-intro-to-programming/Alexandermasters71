@@ -16,7 +16,7 @@ const fireAlarm = (pulled, smoke, drill) => {
 };
 
 
-const canBepresident = (age, naturalBornCitizen, numberOfYears) => {
+const canBePresident = (age, naturalBornCitizen, numberOfYears) => {
   return age >= 35 && naturalBornCitizen && numberOfYears >= 14;
 };
 
