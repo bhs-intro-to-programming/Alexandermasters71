@@ -12,19 +12,19 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const fireAlarm = (fireAlarmPulled, smokeDetected, plannedDrill) => {
-   return fireAlarmPulled || smokeDetected || plannedDrill
+   return fireAlarmPulled || smokeDetected || plannedDrill;
   
-}
+};
 
 const canBepresident = (personsAge, naturalBornCitizen, numberOfYears) => {
-  
-  //if (x = 0; 0 > x, x++)
+  const personsAge
+  if (x = 0; 0 > x, x++)
   const naturalbornCitizen = (bornInTheUs) => {
-  //  true = bornInTheUs
+    true = bornInTheUs
     false = !bornInTheUs
     const numberOfYears = (overAnAge) => {
       overanAge = 0
-    //  if (x = 0; 0 > x, x++ )
+      if (x = 0; 0 > x, x++ )
     }
 
   }
