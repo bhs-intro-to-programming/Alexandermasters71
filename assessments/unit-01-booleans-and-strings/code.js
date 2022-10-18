@@ -12,5 +12,11 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const fireAlarm = (pulled, smoke, drill) => {
-   return pulled || smoke || drill;
-  };
+  return pulled || smoke || drill;
+};
+
+
+const canBepresident = (age, naturalBornCitizen, numberOfYears) => {
+  return age >= 35 && naturalBornCitizen && numberOfYears >= 14;
+};
+
