@@ -10,7 +10,4 @@ registerOnclick((x, y) => {
 });
  
 
- registerOnclick((x, y) => {
-  drawText('0', x, y, 'black', Math.min(width, height) * 0.3);
-});
-
+ 
