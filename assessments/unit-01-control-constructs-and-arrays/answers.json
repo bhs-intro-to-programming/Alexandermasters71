@@ -18,5 +18,6 @@
   "Nothing, this code won’t run because xs was declared with const.",
   "false",
   "The sum of the numbers from 0 to numbers.length.",
-  "Produces a new array containing the words in words that are all uppercase."
+  "Produces a new array containing the words in words that are all uppercase.",
+  "it creates a new array where it pushes the length of xs nto the new array "
 ]
