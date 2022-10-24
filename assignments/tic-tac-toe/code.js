@@ -9,3 +9,9 @@ registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
 
+const drawBoard = (drawLine) => {
+ drawLine(0, 0, width, height, 'red'); 
+for(drawLine =0;drawline<1;drawLine++){
+
+}
+}
