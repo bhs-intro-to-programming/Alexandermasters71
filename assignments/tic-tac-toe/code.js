@@ -6,12 +6,11 @@
 // weeks but for now you can just adapt this code.
 
 registerOnclick((x, y) => {
-  drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
+  drawText('X', x-25, y+25, 'black', Math.min(width, height) * 0.3);
 });
 
 const drawBoard = (drawLine) => {
   drawLine(400, 300, width, height, 'red');
   for (drawLine = 0; drawline < 1; drawLine++) {
-
   }
 }
