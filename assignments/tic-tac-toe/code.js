@@ -20,3 +20,7 @@ const drawBoard = () => {
   }
 }
 drawBoard()
+
+const hitBox = () => {
+  
+}
