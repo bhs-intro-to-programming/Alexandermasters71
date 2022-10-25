@@ -10,7 +10,9 @@ registerOnclick((x, y) => {
 });
 
 const drawBoard = (drawLine) => {
-  drawLine(400, 300, width, height, 'red');
+  const drawLine = (400, 300, width, height, 'red');
   for (drawLine = 0; drawline < 1; drawLine++) {
+    
   }
+  return drawboard
 }
