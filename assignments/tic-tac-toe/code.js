@@ -21,6 +21,8 @@ const drawBoard = () => {
 }
 drawBoard()
 
-const hitBox = () => {
-  
-}
+const hitBox = [
+  [ '', '', '' ],
+  [ '', '', '' ],
+  [ '', '', '' ],
+];
