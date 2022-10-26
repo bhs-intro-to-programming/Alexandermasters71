@@ -21,8 +21,8 @@ const drawBoard = () => {
 }
 drawBoard()
 
-const hitBox = () => {
+const hitBox = (y,x) => {
   if (y < 3 && x < 3){
-    
+
   }
 }
