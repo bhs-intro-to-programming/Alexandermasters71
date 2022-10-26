@@ -21,6 +21,6 @@ const drawBoard = () => {
 }
 drawBoard()
 
-const yRow = (rowHeight) => {
+const yRow = (height) => {
   let rowHeight = height/3
 }
