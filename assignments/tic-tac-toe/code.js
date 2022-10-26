@@ -21,8 +21,6 @@ const drawBoard = () => {
 }
 drawBoard()
 
-const hitBox = (y,x) => {
-  if (y < 3 && x < 3){
-
-  }
+const yRow = (rowHeight) => {
+  let rowHeight = height/3
 }
