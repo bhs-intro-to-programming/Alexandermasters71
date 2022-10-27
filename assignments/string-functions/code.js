@@ -2,6 +2,8 @@ const findFnord = (s) => {
   return s.indexOf('fnord')
 }
 
-const stringContains = () => {
-  return string 
+const stringContains = (s) => {
+  if (s.search(substring)){
+    return true 
+  }
 }
