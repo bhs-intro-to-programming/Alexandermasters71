@@ -1,1 +1,3 @@
-const findFnord
+const findFnord = ( ) => {
+  findNord.length
+}
