@@ -1,3 +1,5 @@
-const findFnord = ( ) => {
-  findNord.length
+const findFnord = (i ) =
+const search = indexof ('Fnord')
+return search 
 }
+
