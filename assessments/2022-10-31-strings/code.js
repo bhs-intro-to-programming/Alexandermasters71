@@ -12,6 +12,6 @@ const rand = (n) => Math.floor(Math.random() * n);
 // correct even if contains small mistakes.
 
 
-const firstHalf = () => {
-  firstHalf.length/2
+const firstHalf = (s) => {
+  s.length/2
 }
