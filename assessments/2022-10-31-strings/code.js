@@ -13,5 +13,9 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const firstHalf = (s) => {
- return s.length/2
+ return s.indexOf/2
+}
+
+const secondHalf = (i) => {
+  return i.index/2
 }
