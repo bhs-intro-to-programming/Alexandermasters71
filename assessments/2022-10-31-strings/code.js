@@ -13,5 +13,5 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const firstHalf = (s) => {
-  s.length/2
+ return s.length/2
 }
