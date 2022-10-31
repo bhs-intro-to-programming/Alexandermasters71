@@ -19,3 +19,7 @@ const firstHalf = (s) => {
 const secondHalf = (i) => {
   return i.length/2
 }
+
+const upDown = (x) => {
+ return x.uppercase 
+}
