@@ -23,3 +23,9 @@ const secondHalf = (i) => {
 const upDown = (x) => {
  return (x.upperCase && x.lowercase)  
 }
+
+const firstFewEveryOther = (y) => {
+  y = 0
+   100 % 2 == 0
+}
+
