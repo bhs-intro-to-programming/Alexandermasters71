@@ -13,7 +13,7 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const firstHalf = (s) => {
- return s.indexOf/2
+ return s.length/2
 }
 
 const secondHalf = (i) => {
