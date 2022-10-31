@@ -17,5 +17,5 @@ const firstHalf = (s) => {
 }
 
 const secondHalf = (i) => {
-  return i.index/2
+  return i.length/2
 }
