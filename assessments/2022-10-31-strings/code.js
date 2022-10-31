@@ -21,5 +21,5 @@ const secondHalf = (i) => {
 }
 
 const upDown = (x) => {
- return x.upperCase 
+ return x.upperCase(x.lowercase)  
 }
