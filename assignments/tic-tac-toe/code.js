@@ -7,6 +7,8 @@
 
 registerOnclick((x, y) => {
   drawText('X', x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
+  return true
+  
 });
 
 const drawBoard = () => {
