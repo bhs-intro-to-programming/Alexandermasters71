@@ -4,10 +4,10 @@
 // of the equals sign in our normal `const foo = ...` function definition. This
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
-
+let turn = 'x'
 registerOnclick((x, y) => {
   drawText('X', x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
-  return true
+  turn = turn === 'x' ? turn = '0' : turn = 'x'
   
 });
 
