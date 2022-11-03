@@ -16,7 +16,7 @@ registerOnclick((x, y) => {
     let rowWidth = width / 3;
     return Math.floor(x / rowWidth)
   }
-
+  console.log("e")
   drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
