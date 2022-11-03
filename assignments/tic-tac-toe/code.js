@@ -5,10 +5,26 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 let turn = "x"
+
+const ticTacToe = [
+  ['X', 'O', 'O'],
+  ['O', 'X', ''],
+  ['X', '', 'O'],
+]
 registerOnclick((x, y) => {
   drawText(turn, x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
-  
+
+
+  const yRow = (height) => {
+    let rowHeight = height / 3;
+    Math.floor(y / rowHeight)
+  }
+  const xRow = (width) => {
+    let rowWidth = width / 3;
+    Math.floor(x / rowWidth)
+  }
+
 });
 
 const drawBoard = () => {
@@ -19,24 +35,7 @@ const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
     const x = (i + 1) * height / 3
     drawLine(0, x, width, x, 'black', 5);
-    
+
   }
 }
 drawBoard()
-
-
-const yRow = (height) => {
-  let rowHeight = height / 3;
-  Math.floor(y / rowHeight)
-}
-
-const xRow = (width) => {
-  let rowWidth = width / 3;
-  Math.floor(x / rowWidth)
-}
-
-  const ticTacToe = [
-  [ 'X', 'O', 'O' ],
-  [ 'O', 'X', '' ],
-  [ 'X', '', 'O' ],
-  ]
