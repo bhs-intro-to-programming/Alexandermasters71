@@ -12,17 +12,17 @@ const ticTacToe = [
   ['X', '', 'O'],
 ]
 registerOnclick((x, y) => {
-  drawText(turn, x-(Math.min(width, height) * 0.3)/2, y-(Math.min(width, height) * 0.3)/2, 'black', Math.min(width, height) * 0.3);
+  drawText(turn, xRow*(width/3)+width/6, yRow*(height/3)+height/6, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
 
-  const yRow = (height) => {
+  const yRow = () => {
     let rowHeight = height / 3;
-    Math.floor(y / rowHeight)
+    return Math.floor(y / rowHeight)
   }
-  const xRow = (width) => {
+  const xRow = () => {
     let rowWidth = width / 3;
-    Math.floor(x / rowWidth)
+    return Math.floor(x / rowWidth)
   }
 
 });
