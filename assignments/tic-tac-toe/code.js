@@ -12,7 +12,7 @@ const ticTacToe = [
   ['X', '', 'O'],
 ]
 registerOnclick((x, y) => {
-  drawText(turn, x, y, 'black', Math.min(width, height) * 0.3);
+  drawText(turn, x-(Math.min(width, height) * 0.3)/2, y-(Math.min(width, height) * 0.3)/2, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
 
