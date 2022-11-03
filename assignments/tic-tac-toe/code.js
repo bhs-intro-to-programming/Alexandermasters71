@@ -8,15 +8,13 @@ let turn = "x"
 
 registerOnclick((x, y) => {
 
-  const yRow = () => {
-    let rowHeight = height / 3;
-    return Math.floor(y / rowHeight)
-  }
-  const xRow = () => {
-    let rowWidth = width / 3;
-    return Math.floor(x / rowWidth)
-  }
-  drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(width, height) * 0.3);
+  const spacingH = height / 3;
+  const box_y = Math.floor(y / spacingH)
+  
+  const spacingW = width / 3;
+  const box_x = Math.floor(x / spacingW)
+  
+  drawText(turn, box_x * (width / 3) + width / 6, box_y * (height / 3) + height / 6, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
 
