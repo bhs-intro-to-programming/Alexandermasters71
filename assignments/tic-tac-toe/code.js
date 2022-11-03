@@ -6,11 +6,6 @@
 // weeks but for now you can just adapt this code.
 let turn = "x"
 
-const ticTacToe = [
-  ['X', 'O', 'O'],
-  ['O', 'X', ''],
-  ['X', '', 'O'],
-]
 registerOnclick((x, y) => {
 
   const yRow = () => {
