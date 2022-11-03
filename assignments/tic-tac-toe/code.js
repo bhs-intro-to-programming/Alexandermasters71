@@ -14,6 +14,7 @@ registerOnclick((x, y) => {
   }
   const xRow = () => {
     let rowWidth = width / 3;
+    console.log(x / rowWidth)
     return Math.floor(x / rowWidth)
   }
 
