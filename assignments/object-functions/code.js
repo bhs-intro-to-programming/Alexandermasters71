@@ -10,6 +10,6 @@ const emptyObject = () => {
   return {}
 }
 
-const distance = () => {
-  
+const distance = (object) => {
+return (object.y1 + object.y2)+(object.x1 + object.x2)
 }
