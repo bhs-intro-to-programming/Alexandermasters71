@@ -1,4 +1,3 @@
-const getX = (s) => {
-const y=s.search(x)
-  return y
+const getX = () => {
+  return point['x']
 }
