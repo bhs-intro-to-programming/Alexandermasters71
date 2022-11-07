@@ -1,4 +1,4 @@
 const getX = (s) => {
-  const x = s.search('x')
+  const x = s.charAt('x')
   return x
 }
