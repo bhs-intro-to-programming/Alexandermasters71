@@ -1,4 +1,3 @@
-const getX = (s) => {
-  const x = s.charAt('x')
-  return x
+const getX = (object) => {
+  return object.x
 }
