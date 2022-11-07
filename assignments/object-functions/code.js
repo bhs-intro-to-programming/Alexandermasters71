@@ -20,8 +20,6 @@ const midpoint = (point1, point2) => {
 
 const sumSalaries = (array) => {
   let add = 0
-  for (const element of array) {
-    add += element;
-  }
+   add += element;
   return add
 }
