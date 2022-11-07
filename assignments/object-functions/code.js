@@ -11,5 +11,5 @@ const emptyObject = () => {
 }
 
 const distance = (object) => {
-return (object.y1 + object.y2)+(object.x1 + object.x2)
+return Math.sqrt(object.y1 + object.y2)+Math.sqrt(object.x1 + object.x2)
 }
