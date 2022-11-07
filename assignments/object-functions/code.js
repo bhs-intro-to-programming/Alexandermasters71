@@ -19,6 +19,6 @@ const midpoint = (point1, point2) => {
 }
 
 const sumSalaries = (array) => {
-   add += element;
-  return add
+   array += element;
+  return array
 }
