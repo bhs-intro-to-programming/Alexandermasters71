@@ -42,5 +42,5 @@ const summarizeBooks = (array) => {
   for (let i = 0; i < array.length; i++) {
     page += array[i].title
   }
-  return page
+  return array.pages
 }
