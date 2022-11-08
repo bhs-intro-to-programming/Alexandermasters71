@@ -38,5 +38,8 @@ const newHighScore = (current, array) => {
 
 
 const summarizeBooks = (array) => {
-  return array.title
+  let titles = []
+  for(let i = 0; i < array.length;i++){
+    titles += array[i].titles
+  }
 }
