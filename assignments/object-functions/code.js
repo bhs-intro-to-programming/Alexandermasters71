@@ -37,12 +37,12 @@ const newHighScore = (current, array) => {
 }
 
 
-const summarizeBooks = (array) => {
+const summarizeBooks = (arrayBooks) => {
   let titles = []
   let pages = 0
-  for(let i = 0; i < array.length;i++){
-    titles.push( array[i].titles)
-    pages += array[i].pages
+  for(let i = 0; i < arrayBooks.length;i++){
+    titles.push( arrayBooks[i].titles)
+    pages += arrayBooks[i].pages
   }
   return {'titles' : titles,'pages' : pages}
 }
