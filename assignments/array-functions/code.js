@@ -32,10 +32,9 @@ for (const element of array){
    if (hun>100){
      num++
    }
-   if (hun>0){
+   if (hun>element){
      return ture
    }else{
-     return console.log(under100)
-   }
+     return false
    }
 }
