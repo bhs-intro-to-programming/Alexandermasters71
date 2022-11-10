@@ -19,7 +19,7 @@ return add
 const evens = (array) => {
   newarray =[]
   for(const element of array){
-
+newarray % 2 ===0 
   }
   return new array
 }
