@@ -37,4 +37,3 @@ for (const element of array){
    }else{
      return false
    }
-}
