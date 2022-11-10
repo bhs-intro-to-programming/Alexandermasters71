@@ -8,7 +8,7 @@ const countTens = (array) => {
     return ten
 }
 
-const  sum = () =>{
+const  sum = (array) =>{
  let add = 0
  for(const element of array){
    add += element
