@@ -17,9 +17,9 @@ return add
 }
 
 const evens = (array) => {
-  let newarray =[]
+  newarray =[]
   for(const element of array){
 2 % 3 ===0 
   }
-  return newarray
+  return new array
 }
