@@ -25,3 +25,17 @@ if (element%2==0){
   }
   return newarray
 }
+
+const anyOverOneHundred = (array) => {
+let hun = 0
+for (const element of array){
+   if (hun>100){
+     num++
+   }
+   if (hun>0){
+     return ture
+   }else{
+     return console.log(under100)
+   }
+   }
+}
