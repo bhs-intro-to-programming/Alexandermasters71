@@ -27,13 +27,10 @@ if (element%2==0){
 }
 
 const anyOverOneHundred = (array) => {
-let hun = 0
 for (const element of array){
-   if (hun>100){
-     num++
-   }
-   if (hun>element){
-     return ture
-   }else{
+   if (element>100)
+     return true
+     else
      return false
-   }
+}
+}
