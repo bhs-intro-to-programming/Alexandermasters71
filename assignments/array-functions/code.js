@@ -30,8 +30,8 @@ const anyOverOneHundred = (array) => {
   for (const element of array) {
     if (element > 100) {
       return true
-      }else {
-      return false
-  }
+      else 
+    return false
     }
-  }
+    }
+
