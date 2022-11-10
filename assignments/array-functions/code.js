@@ -21,5 +21,5 @@ const evens = (array) => {
   for(const element of array){
 2 % 3 ===0 
   }
-  return new array
+  return newarray
 }
