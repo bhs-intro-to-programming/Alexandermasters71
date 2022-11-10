@@ -28,7 +28,7 @@ if (element%2==0){
 
 const anyOverOneHundred = (array) => {
 for (const element of array){
-   if (element>100)
+   if (element>=100)
      return true
      else
      return false
