@@ -2,7 +2,7 @@
 // should save you some time.
 
 const area = (rect) => {
-  let x = (rect.width*rect.height)
+  let x = rect.width*rect.height
   return x
 };
 
