@@ -15,7 +15,7 @@ const higherPaid = (e1, e2) => {
       e1 = highestSalary
     }
   }
-  return highestsalary
+  return highestSalary
 };
 
 const isSamePoint = (p1, p2) => {
