@@ -2,17 +2,18 @@
 // should save you some time.
 
 const area = (rect) => {
-  let x = (rect.width*rect.height)
+  let x = (rect.width * rect.height)
   return x
 };
 
 const higherPaid = (e1, e2) => {
-  let highestsalary = 0
-  for(let i=0;i<higherPaid.length;i++){
-if (e1 < e2){
-  e2=highestsalary
-}
-
+  let highestSalary = 0
+  for (let i = 0; i < higherPaid.length; i++) {
+    if (e1 < e2) {
+      e2 = highestsalary
+    } else {
+      e1 = highestSalary
+    }
   }
   return highestsalary
 };
