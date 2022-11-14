@@ -7,7 +7,7 @@ const area = (rect) => {
 };
 
 const higherPaid = (e1, e2) => {
-  for(leti=0;i<higherPaid;i++){
+  for(let i=0;i<higherPaid;i++){
 if (e1 < e2)
 return e2
   }
