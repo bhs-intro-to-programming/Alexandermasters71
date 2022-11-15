@@ -17,10 +17,6 @@ drawText(WHITE_KING, width / 2, height / 2, 'black', 64);
 registerOnclick((x, y) => {
   let turn = "x"
 
-const d = r * 2
-  const numbCircles = Math.floor(width / d)
-  const offset = width - (d * numbCircles); 
-  
   const spacingH = height / 7;
   const box_y = Math.floor(y / spacingH)
 
@@ -32,6 +28,11 @@ const d = r * 2
 
 
 const drawBoard = () => {
+
+  const d = r * 2
+  const numbCircles = Math.floor(width / d)
+  const offset = width - (d * numbCircles); 
+  
   for (let i = 0; i < 7; i++) {
     const x = (i + 1) * width / 7
     drawLine(x, 0, x, height, 'black', 5);
