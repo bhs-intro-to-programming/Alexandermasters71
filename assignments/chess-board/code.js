@@ -27,12 +27,12 @@ registerOnclick((x, y) => {
 
 
 
-const drawBoard = () => {
+const drawBoard = (r) => {
 
   const d = r * 2
   const numbCircles = Math.floor(width / d)
   const offset = width - (d * numbCircles); 
-  
+
   for (let i = 0; i < 7; i++) {
     const x = (i + 1) * width / 7
     drawLine(x, 0, x, height, 'black', 5);
