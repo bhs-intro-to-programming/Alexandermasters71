@@ -17,11 +17,11 @@ drawText(WHITE_KING, width/2, height/2, 'black', 64);
 
 
 const drawBoard = () => {
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 8; i++) {
     const x = (i + 1) * width / 9
     drawLine(x, 0, x, height, 'black', 5);
   }
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 8; i++) {
     const x = (i + 1) * height / 9
     drawLine(0, x, width, x, 'black', 5);
 
