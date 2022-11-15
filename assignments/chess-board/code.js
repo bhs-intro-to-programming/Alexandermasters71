@@ -1,26 +1,27 @@
-const WHITE_KING   = '♔';
-const WHITE_QUEEN  = '♕';
-const WHITE_ROOK   = '♖';
+const WHITE_KING = '♔';
+const WHITE_QUEEN = '♕';
+const WHITE_ROOK = '♖';
 const WHITE_BISHOP = '♗';
 const WHITE_KNIGHT = '♘';
-const WHITE_PAWN   = '♙';
-const BLACK_KING   = '♚';
-const BLACK_QUEEN  = '♛';
-const BLACK_ROOK   = '♜';
+const WHITE_PAWN = '♙';
+const BLACK_KING = '♚';
+const BLACK_QUEEN = '♛';
+const BLACK_ROOK = '♜';
 const BLACK_BISHOP = '♝';
 const BLACK_KNIGHT = '♞';
-const BLACK_PAWN   = '♟';
+const BLACK_PAWN = '♟';
 
 // Example of drawing one of the pieces
-drawText(WHITE_KING, width/2, height/2, 'black', 64);registerOnclick((x, y) => {
+drawText(WHITE_KING, width / 2, height / 2, 'black', 64);
+
+registerOnclick((x, y) => {
   let turn = "x"
 
   const spacingH = height / 7;
   const box_y = Math.floor(y / spacingH)
-  
-  const spacingW = width / 7;
-  const box_x = Math.floor(x / spacin
 
+  const spacingW = width / 7;
+  const box_x = Math.floor(x / spacingW)
 
 });
 
