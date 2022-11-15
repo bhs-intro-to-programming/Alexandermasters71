@@ -13,6 +13,7 @@ const BLACK_PAWN   = '♟';
 
 // Example of drawing one of the pieces
 drawText(WHITE_KING, width/2, height/2, 'black', 64);registerOnclick((x, y) => {
+  let turn = "x"
 
   const spacingH = height / 7;
   const box_y = Math.floor(y / spacingH)
