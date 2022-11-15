@@ -12,7 +12,19 @@ const BLACK_KNIGHT = '♞';
 const BLACK_PAWN   = '♟';
 
 // Example of drawing one of the pieces
-drawText(WHITE_KING, width/2, height/2, 'black', 64);
+drawText(WHITE_KING, width/2, height/2, 'black', 64);registerOnclick((x, y) => {
+
+  const spacingH = height / 7;
+  const box_y = Math.floor(y / spacingH)
+  
+  const spacingW = width / 7;
+  const box_x = Math.floor(x / spacingW)
+  
+  drawText(turn, (box_x * (width / 3) + width / 6)-50, (box_y * (height / 3) + height / 6)+50, 'black', Math.min(width, height) * 0.3);
+  turn = turn === "x" ? turn = "O" : turn = "x"
+
+
+});
 
 
 
