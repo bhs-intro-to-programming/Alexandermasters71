@@ -21,7 +21,7 @@ drawText(WHITE_KING, width/2, height/2, 'black', 64);registerOnclick((x, y) => {
   const spacingW = width / 7;
   const box_x = Math.floor(x / spacingW)
   
-  drawText(turn, (box_x * (width / 3) + width / 6)-50, (box_y * (height / 3) + height / 6)+50, 'black', Math.min(width, height) * 0.3);
+  drawText(turn, (box_x * (width / 7) + width / 6)-50, (box_y * (height / 7) + height / 6)+50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
 
