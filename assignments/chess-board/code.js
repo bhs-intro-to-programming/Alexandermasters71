@@ -23,7 +23,7 @@ const drawBoard = () => {
   }
   for (let i = 0; i < 8; i++) {
     const x = (i + 1) * height / 9
-    drawLine(0, x, width, x, 'black', 1);
+    drawLine(0, x, width, x, 'black', 6);
 
   }
 }
