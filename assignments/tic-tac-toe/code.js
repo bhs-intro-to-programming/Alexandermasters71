@@ -61,7 +61,7 @@ registerOnclick((x, y) => {
     console.log(JSON.stringify(identifyWin(turn)))
     turn = turn === "x" ? turn = "o" : turn = "x"
     turns++
-    if (turns === 9) {
+    if (turns === 9 && identifyWin === undefined) {
       drawText('DRAW',width/2, height/2,'black')
     }
   }
