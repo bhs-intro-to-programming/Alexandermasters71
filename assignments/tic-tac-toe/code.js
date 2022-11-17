@@ -22,7 +22,7 @@ registerOnclick((x, y) => {
   if (cordArray[box_y][box_x] === '') {
     drawText(turn, (box_x * (width / 3) + width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black', Math.min(width, height) * 0.3);
     cordArray[box_y][box_x] = turn
-    turn = turn === "x" ? turn = "o" : turn = "x"
+    turn = turn === "x" ? turn = "baka" : turn = "x"
   }
 });
 
