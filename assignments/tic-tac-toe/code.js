@@ -44,7 +44,7 @@ const identifyWin = (turn) => {
   } else if (cordArray[2][0] === turn && cordArray[1][1] === turn && cordArray[0][2] === turn) {
     winner = {winner: turn, winType: 'diagonal', winLocation: 'RToL'}
   } 
-  return winner
+  return winner  
 }
 
 let turns = 0
