@@ -25,23 +25,24 @@ const drawBoard = () => {
 }
 drawBoard()
 
+let winner
 const identifyWin = (turn) => {
   if (cordArray[0][0] === turn && cordArray[0][1] === turn && cordArray[0][2] === turn) {
-    return ({winner: turn, winType: 'horizontal', winLocation: 'top'})
+    winner = {winner: turn, winType: 'horizontal', winLocation: 'top'}
   } else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] === turn) {
-    return ({winner: turn, winType: 'horizontal', winLocation: 'mid'})
+    winner = {winner: turn, winType: 'horizontal', winLocation: 'mid'}
   } else if (cordArray[2][0] === turn && cordArray[2][1] === turn && cordArray[2][2] === turn) {
-    return ({winner: turn, winType: 'horizontal', winLocation: 'low'})
+    winner = {winner: turn, winType: 'horizontal', winLocation: 'low'}
   } else if (cordArray[0][0] === turn && cordArray[1][0] === turn && cordArray[2][0] === turn) {
-    return ({winner: turn, winType: 'vertical', winLocation: 'left'})
+    winner = {winner: turn, winType: 'vertical', winLocation: 'left'}
   } else if (cordArray[0][1] === turn && cordArray[1][1] === turn && cordArray[2][1] === turn) {
-    return ({winner: turn, winType: 'vertical', winLocation: 'mid'})
+    winner = {winner: turn, winType: 'vertical', winLocation: 'mid'}
   } else if (cordArray[0][2] === turn && cordArray[1][2] === turn && cordArray[2][2] === turn) {
-    return ({winner: turn, winType: 'vertical', winLocation: 'right'})
+    winner = {winner: turn, winType: 'vertical', winLocation: 'right'}
   } else if (cordArray[0][0] === turn && cordArray[1][1] === turn && cordArray[2][2] === turn) {
-    return ({winner: turn, winType: 'diagonal', winLocation: 'LToR'})
+    winner = {winner: turn, winType: 'diagonal', winLocation: 'LToR'}
   } else if (cordArray[2][0] === turn && cordArray[1][1] === turn && cordArray[0][2] === turn) {
-    return ({winner: turn, winType: 'diagonal', winLocation: 'RToL'})
+    winner = {winner: turn, winType: 'diagonal', winLocation: 'RToL'}
   } 
 }
 
