@@ -25,7 +25,7 @@ registerOnclick((x, y) => {
     cordArray[box_y][box_x] = turn
     turn = turn === "x" ? turn = "o" : turn = "x"
     turns++
-    if (turns = 9) {
+    if (turns = 8) {
       drawText(width/2, height/2, 'DRAW', 'black')
     }
   }
