@@ -12,6 +12,7 @@ const cordArray = [
 ];
 let turn = "x"
 
+let turns = 0
 registerOnclick((x, y) => {
   const spacingH = height / 3;
   const box_y = Math.floor(y / spacingH)
@@ -23,6 +24,7 @@ registerOnclick((x, y) => {
     drawText(turn, (box_x * (width / 3) + width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black', Math.min(width, height) * 0.3);
     cordArray[box_y][box_x] = turn
     turn = turn === "x" ? turn = "o" : turn = "x"
+    turns++
     if (turns = 9) {
       drawText(width/2, height/2, 'DRAW', 'black')
     }
