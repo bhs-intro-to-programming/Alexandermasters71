@@ -9,7 +9,7 @@ const cordArray = [
   ['', '', '']
   ['', '', '']
   ['', '', '']
-]
+];
 let turn = "x"
 
 registerOnclick((x, y) => {
