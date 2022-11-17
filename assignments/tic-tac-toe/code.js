@@ -26,7 +26,7 @@ registerOnclick((x, y) => {
     turn = turn === "x" ? turn = "o" : turn = "x"
     turns++
     if (turns = 8) {
-      drawText(width/2, height/2, 'DRAW', 'black')
+      drawText('DRAW',width/2, height/2,'black')
     }
   }
 });
