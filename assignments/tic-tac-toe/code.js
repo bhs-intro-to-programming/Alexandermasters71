@@ -55,10 +55,10 @@ registerOnclick((x, y) => {
   const spacingW = width / 3;
   const box_x = Math.floor(x / spacingW)
 
-  if (cordArray[box_y][box_x] === '') {
+  if (cordArray[box_y][box_x] === '' && identifyWin(turn) === undefined) {
     drawText(turn, (box_x * (width / 3) + width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black', Math.min(width, height) * 0.3);
     cordArray[box_y][box_x] = turn
-    JSON.stringify(identifyWin(turn))
+    console.log(JSON.stringify(identifyWin(turn)))
     turn = turn === "x" ? turn = "o" : turn = "x"
     turns++
     if (turns === 9) {
