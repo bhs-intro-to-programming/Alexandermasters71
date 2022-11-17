@@ -6,9 +6,9 @@
 // weeks but for now you can just adapt this code.
 
 const cordArray = [
-  ['', '', '']
-  ['', '', '']
-  ['', '', '']
+  ['', '', ''], 
+  ['', '', ''],
+  ['', '', ''],
 ];
 let turn = "x"
 
