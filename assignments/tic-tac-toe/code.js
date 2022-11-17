@@ -4,17 +4,23 @@
 // of the equals sign in our normal `const foo = ...` function definition. This
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
+
+const cordArray = [
+  ['', '', '']
+  ['', '', '']
+  ['', '', '']
+]
 let turn = "x"
 
 registerOnclick((x, y) => {
 
   const spacingH = height / 3;
   const box_y = Math.floor(y / spacingH)
-  
+
   const spacingW = width / 3;
   const box_x = Math.floor(x / spacingW)
-  
-  drawText(turn, (box_x * (width / 3) + width / 6)-50, (box_y * (height / 3) + height / 6)+50, 'black', Math.min(width, height) * 0.3);
+
+  drawText(turn, (box_x * (width / 3) + width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
 
@@ -36,5 +42,6 @@ drawBoard()
 const identifyGame = () => {
 
 
-  
+
 }
+
