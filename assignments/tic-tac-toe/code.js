@@ -23,7 +23,7 @@ registerOnclick((x, y) => {
   drawText(turn, (box_x * (width / 3) + width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "x" ? turn = "O" : turn = "x"
 
-
+  console.log(x, y)
 });
 
 const drawBoard = () => {
