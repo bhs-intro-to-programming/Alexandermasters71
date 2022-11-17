@@ -12,8 +12,8 @@ const cordArray = [
 ];
 let turn = "x"
 
-let turns = 0
 registerOnclick((x, y) => {
+  let turns = 0
   const spacingH = height / 3;
   const box_y = Math.floor(y / spacingH)
 
