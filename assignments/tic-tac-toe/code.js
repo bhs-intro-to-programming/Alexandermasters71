@@ -12,6 +12,39 @@ const cordArray = [
 ];
 let turn = "x"
 
+const drawBoard = () => {
+  for (let i = 0; i < 2; i++) {
+    const x = (i + 1) * width / 3
+    drawLine(x, 0, x, height, 'black', 5);
+  }
+  for (let i = 0; i < 2; i++) {
+    const x = (i + 1) * height / 3
+    drawLine(0, x, width, x, 'black', 5);
+
+  }
+}
+drawBoard()
+
+const identifyWin = (turn) => {
+  if (cordArray[0][0] === turn && cordArray[0][1] === turn && cordArray[0][2] === turn) {
+    return ({winner: turn, winType: 'horizontal', winLocation: 'top'})
+  } else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] === turn) {
+    return ({winner: turn, winType: 'horizontal', winLocation: 'mid'})
+  } else if (cordArray[2][0] === turn && cordArray[2][1] === turn && cordArray[2][2] === turn) {
+    return ({winner: turn, winType: 'horizontal', winLocation: 'low'})
+  } else if (cordArray[0][0] === turn && cordArray[1][0] === turn && cordArray[2][0] === turn) {
+    return ({winner: turn, winType: 'vertical', winLocation: 'left'})
+  } else if (cordArray[0][1] === turn && cordArray[1][1] === turn && cordArray[2][1] === turn) {
+    return ({winner: turn, winType: 'vertical', winLocation: 'mid'})
+  } else if (cordArray[0][2] === turn && cordArray[1][2] === turn && cordArray[2][2] === turn) {
+    return ({winner: turn, winType: 'vertical', winLocation: 'right'})
+  } else if (cordArray[0][0] === turn && cordArray[1][1] === turn && cordArray[2][2] === turn) {
+    return ({winner: turn, winType: 'diagonal', winLocation: 'LToR'})
+  } else if (cordArray[2][0] === turn && cordArray[1][1] === turn && cordArray[0][2] === turn) {
+    return ({winner: turn, winType: 'diagonal', winLocation: 'RToL'})
+  } 
+}
+
 let turns = 0
 registerOnclick((x, y) => {
   const spacingH = height / 3;
@@ -30,23 +63,4 @@ registerOnclick((x, y) => {
     }
   }
 });
-
-const drawBoard = () => {
-  for (let i = 0; i < 2; i++) {
-    const x = (i + 1) * width / 3
-    drawLine(x, 0, x, height, 'black', 5);
-  }
-  for (let i = 0; i < 2; i++) {
-    const x = (i + 1) * height / 3
-    drawLine(0, x, width, x, 'black', 5);
-
-  }
-}
-drawBoard()
-
-const identifyGame = () => {
-
-
-
-}
 
