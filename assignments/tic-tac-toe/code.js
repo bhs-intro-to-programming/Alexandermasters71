@@ -25,7 +25,7 @@ const drawBoard = () => {
 }
 drawBoard()
 
-let winner = null
+let winner 
 const identifyWin = (turn) => {
   if (cordArray[0][0] === turn && cordArray[0][1] === turn && cordArray[0][2] === turn) {
     winner = {winner: turn, winType: 'horizontal', winLocation: 'top'}
