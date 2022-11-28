@@ -15,3 +15,7 @@ const divide = (a,b) => {
 const mod = (a,b) => {
   return a%b  
 }
+
+const averageOfTwo = (a,b) => {
+  return (a+b)/2
+}
