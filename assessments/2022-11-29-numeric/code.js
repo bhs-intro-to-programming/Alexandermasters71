@@ -2,7 +2,7 @@ const totalEggs = (hardBoiled,softBoiled) => {
   return hardBoiled + softBoiled
 }
 const chocolatesPerPerson = (numberOfPeople,numberOfChoclates) => {
-  return numberOfChoclates-numberOfPeople
+  return MAth.abs(numberOfChoclates-numberOfPeople)
 }
 
 const extraChocolates = (numberOfPeople,numberOfChoclates) => {
