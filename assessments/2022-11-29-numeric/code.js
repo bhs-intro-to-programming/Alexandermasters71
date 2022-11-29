@@ -20,3 +20,7 @@ return 1/2 /(numberOfFlips)
 const futureHour= (currentHour,nextHours) => {
 return currentHour+(nextHours%24)
 }
+
+const presentsBudget = (numberOfPresents,averagePrice) => {
+return numberOfPresents * averagePrice
+}
