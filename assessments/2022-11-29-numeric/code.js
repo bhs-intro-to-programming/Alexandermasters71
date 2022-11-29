@@ -16,3 +16,7 @@ return numberOfChoclates/numberOfPeople
 const probabilityAllHeads = (numberOfFlips) => {
 return 1/2 /(numberOfFlips)
 }
+
+const futureHour= (currentHour,nextHours) => {
+return currentHour+(nextHours%24)
+}
