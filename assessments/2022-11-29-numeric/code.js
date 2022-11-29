@@ -24,3 +24,7 @@ return currentHour+(nextHours%24)
 const presentsBudget = (numberOfPresents,averagePrice) => {
 return numberOfPresents * averagePrice
 }
+
+const perPresent = (totalAmount,numberOfPresents) => {
+  return Math.floor(totalAmount/numberOfPresents)
+}
