@@ -5,3 +5,7 @@ const totalEggs = (hardBoiled,softBoiled) => {
 const extraChocolates = (numberOfPeople,numberOfChoclates) => {
 return numberOfChoclates%numberOfPeople
 }
+
+const leftOut = (numberOfPeople,numberOfChoclates) => {
+return numberOfPeople/numberOfChoclates
+}
