@@ -29,6 +29,6 @@ const perPresent = (totalAmount,numberOfPresents) => {
   return Math.floor(totalAmount/numberOfPresents)
 }
 
-const wrapingCombos = (kindsOfPaper,kindsOfRibbons,kindsOfDecorBows) => {
+const wrappingCombos = (kindsOfPaper,kindsOfRibbons,kindsOfDecorBows) => {
 return kindsOfPaper*kindsOfRibbons*kindsOfDecorBows
 }
