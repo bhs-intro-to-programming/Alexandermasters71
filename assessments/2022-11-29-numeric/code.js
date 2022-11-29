@@ -7,5 +7,5 @@ return numberOfChoclates%numberOfPeople
 }
 
 const leftOut = (numberOfPeople,numberOfChoclates) => {
-return numberOfPeople/numberOfChoclates
+return numberOfChoclates/numberOfPeople
 }
