@@ -3,5 +3,5 @@ const totalEggs = (hardBoiled,softBoiled) => {
 }
 
 const extraChocolates = (numberOfPeople,numberOfChoclates) => {
-return numberOfPeople%numberOfChoclates
+return numberOfChoclates%numberOfPeople
 }
