@@ -13,6 +13,6 @@ const leftOut = (numberOfPeople,numberOfChoclates) => {
 return numberOfChoclates/numberOfPeople
 }
 
-const probabilityAllHeads = () => {
-
+const probabilityAllHeads = (numberOfFlips) => {
+return 1 /(numberOfFlips**2)
 }
