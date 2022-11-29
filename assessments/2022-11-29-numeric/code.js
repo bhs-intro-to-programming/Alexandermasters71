@@ -14,5 +14,5 @@ return numberOfChoclates/numberOfPeople
 }
 
 const probabilityAllHeads = (numberOfFlips) => {
-return 1/2 /(numberOfFlips**2)
+return 1/2 /(numberOfFlips)
 }
