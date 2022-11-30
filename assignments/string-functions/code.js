@@ -3,8 +3,5 @@ const findFnord = (s) => {
 }
 
 const stringContains = (s1, s2) => {
-  if (s1.substring(s2)) {
-    return true
+  return !(s1.indexOf(s2)===-1)
   }
-else return false
-}
