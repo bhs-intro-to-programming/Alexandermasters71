@@ -3,14 +3,14 @@ const findFnord = (s) => {
 }
 
 const stringContains = (s1, s2) => {
-  return !(s1.indexOf(s2)===-1)
-  }
+  return !(s1.indexOf(s2) === -1)
+}
 
-  const firstAndLast = (s) => {
- return s[0] + s[s.length -1]
-  }
+const firstAndLast = (s) => {
+  return s[0] + s[s.length - 1]
+}
 
 
- const swapFrontAndBack = (s) => {
-  let s.length/2
- }
+const swapFrontAndBack = (s) => {
+  return  s.substring(s.length/2,s.length) + s.substring(0,s.length)
+}
