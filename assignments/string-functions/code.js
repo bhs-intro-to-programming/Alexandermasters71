@@ -12,5 +12,5 @@ const firstAndLast = (s) => {
 
 
 const swapFrontAndBack = (s) => {
-  return  s.substring(s.length/2,s.length) + s.substring(0,s.length)
+  return  s.substring(s.length/2,s.length) + s.substring(0,s.length/2)
 }
