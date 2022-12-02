@@ -25,3 +25,10 @@ const isVenomous = (striped, blueHead) => {
   }
   else return false
 }
+
+const okaySpeed = (speedLimit,carsSpeed) => {
+if (Math.abs(carsSpeed-speedLimit===10)){
+  return true
+}
+else return false
+}
