@@ -4,3 +4,10 @@ const needHeavyCoat = (goingOutside,isCold) => {
   }
   else return false
 }
+
+const needSunscreen = (goingToTheBeach,goingSkiing) => {
+if(goingToTheBeach || goingSkiing){
+return true
+}
+else return false
+}
