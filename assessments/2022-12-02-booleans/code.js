@@ -32,3 +32,10 @@ if (Math.abs(carsSpeed-speedLimit===10)){
 }
 else return false
 }
+
+const twiceAsExpensive = (price,price1) => {
+if(price1*2===price){
+  return true
+}
+else return false
+}
