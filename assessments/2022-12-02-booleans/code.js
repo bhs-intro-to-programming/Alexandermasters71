@@ -11,3 +11,10 @@ return true
 }
 else return false
 }
+
+const needMittens = (goingOutside,inWarmEnviroment) => {
+if(goingOutside && ! inWarmEnviroment){
+return true
+}
+else return false
+}
