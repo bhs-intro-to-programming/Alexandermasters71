@@ -20,7 +20,7 @@ const needMittens = (goingOutside, inWarmEnviroment) => {
 }
 
 const isVenomous = (striped, blueHead) => {
-  if (striped && blueHead) {
+  if (striped ||  ! blueHead) {
     return true
   }
   else return false
