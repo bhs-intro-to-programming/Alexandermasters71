@@ -39,3 +39,10 @@ if(price1*2===price){
 }
 else return false
 }
+
+const winningRecord = (wins,losses,ties) => {
+if(wins * 1/2===losses+ties){
+  return true
+}
+else return false
+}
