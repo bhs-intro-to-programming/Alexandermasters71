@@ -11,5 +11,5 @@ return s.substring(2,s.length-2)
 }
 
 const pair = (s1,s2) => {
-return s1 + 'and' + s2 
+return s1 + ' and ' + s2 
 }
