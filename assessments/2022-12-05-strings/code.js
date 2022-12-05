@@ -13,3 +13,11 @@ return s.substring(2,s.length-2)
 const pair = (s1,s2) => {
 return s1 + ' and ' + s2 
 }
+
+const containsX = (s) => {
+if(s.search('x')){
+  return true
+}
+else return false
+}
+ 
