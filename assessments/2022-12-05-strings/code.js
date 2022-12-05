@@ -32,6 +32,5 @@ return capitalizedLetter.toUpperCase() + s.substring(1)
 
 const capitalizeName = (s) => {
   let capatalizedLetter1 = s[0]
-  let capitalizedLetter2 = s.indexOf(' '+1)
-return capatalizedLetter1.toUpperCase() + s.substring(1,capitalizedLetter2) + capitalizedLetter2.toUpperCase() + s.substring(capitalizedLetter2+1)
+return capatalizedLetter1.toUpperCase() + s.substring(1,s.indexOf(' '+1)) + s.indexOf(' '+1).toUpperCase() + s.substring(capitalizedLetter2+1)
 }
