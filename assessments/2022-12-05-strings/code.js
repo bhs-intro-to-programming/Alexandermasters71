@@ -32,5 +32,5 @@ return capitalizedLetter.toUpperCase() + s.substring(1)
 
 const capitalizeName = (s) => {
   let capatalizedLetter1 = s[0]
-return capatalizedLetter1.toUpperCase() + s.substring(1,' ')
+return capatalizedLetter1.toUpperCase() + s.substring(1,)
 }
