@@ -27,5 +27,5 @@ return s1.toLowerCase() + '-' + s2.toLowerCase() + '-' + s3.toLowerCase()
 
 const capitalize = (s) => {
   let capitalizedLetter = s[0]
-return capitalizedLetter.toUpperCase + s.substring(1)
+return capitalizedLetter.toUpperCase() + s.substring(1)
 }
