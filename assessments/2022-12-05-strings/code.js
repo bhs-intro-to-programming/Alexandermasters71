@@ -15,7 +15,7 @@ return s1 + ' and ' + s2
 }
 
 const containsX = (s) => {
-if(s.search('x')){
+if(s === s.search('x')){
   return true
 }
 else return false
