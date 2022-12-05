@@ -26,5 +26,5 @@ return s1.toLowerCase() + '-' + s2.toLowerCase() + '-' + s3.toLowerCase()
 }
 
 const capitalize = (s) => {
-return s.toUpperCase(0) + s.substring(1)
+return s.toUpperCase(0,1) + s.substring(1)
 }
