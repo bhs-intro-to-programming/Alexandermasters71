@@ -94,3 +94,19 @@ if(number === isOk(0 <= number)){
 return number 
 }
 }
+
+const timeToLeet = () => {
+let 
+for(let i = 0;i<random10k;i++){
+  if(random10k === isLeet){
+    isLeet++
+  }
+}
+}
+
+const classify = (arbValue) => {
+if (isOk===false){
+return recordNotOk(arbValue)
+}
+else return arbValue
+}
