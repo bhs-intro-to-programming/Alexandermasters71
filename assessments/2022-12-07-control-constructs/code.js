@@ -88,8 +88,3 @@ const logIfOk = (s) => {
   }
 }
 
-const firstOk = (n) => {
-if( ){
-
-}
-}
