@@ -96,12 +96,12 @@ return number
 }
 
 const timeToLeet = () => {
-let 
 for(let i = 0;i<random10k;i++){
   if(random10k === isLeet){
     isLeet++
   }
 }
+return isLeet
 }
 
 const classify = (arbValue) => {
