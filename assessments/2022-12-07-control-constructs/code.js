@@ -90,7 +90,7 @@ const logIfOk = (s) => {
 
 const firstOk = (n) => {
   let number = Math.random(0,n)
-if(number === isOk){
+if(number === isOk(0 <= number)){
 return number 
 }
 }
