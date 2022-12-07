@@ -88,3 +88,9 @@ const logIfOk = (s) => {
   }
 }
 
+const firstOk = (n) => {
+  let number = Math.random(0,n)
+if(number === isOk){
+return number 
+}
+}
