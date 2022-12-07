@@ -83,5 +83,13 @@ const pair = (a, b) => {
 
 const logIfOk = (s) => {
   let value = isOk(s)
-  return value
+  if (value === true){
+    return log(s)
+  }
+}
+
+const firstOk = (n) => {
+if( ){
+
+}
 }
