@@ -81,9 +81,7 @@ const pair = (a, b) => {
 
 
 
-const logIfOk = (value) => {
-if(isOk === value ){
-return true
-}
-else return false
+const logIfOk = (s) => {
+  let value = isOk(s)
+  return value
 }
