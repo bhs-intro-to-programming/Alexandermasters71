@@ -12,3 +12,7 @@ numOfX++
   }
   return numOfX
 }
+ 
+ const timesTable = (n) =>{
+return emit(n*n)
+ }
