@@ -6,16 +6,13 @@ const yesIfEven = (n) => {
 }
 
 const countXs = (s) => {
-  let numOfX = 0
-  for (let i = 0; 1 < s.length; i++) {
-    if (s.search('x')) {
-      numOfX++
-    }
+  let numOfX=0
+  if(s.search('x')){
+numOfX++
   }
   return numOfX
 }
-
-const timesTable = (n) => {
-  emit(n * n)
-  return
-}
+ 
+ const timesTable = (n) =>{
+return emit(n*n)
+ }
