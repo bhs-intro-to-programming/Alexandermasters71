@@ -27,6 +27,3 @@ const containsX = (s) => {
   else return false
 }
 
-const sumSquares = (n) => {
-
-}
