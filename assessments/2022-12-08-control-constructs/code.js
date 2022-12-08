@@ -19,8 +19,12 @@ const timesTable = (n) => {
 }
 
 const containsX = (s) =>{
-if(s.indexOf('x') === ('x')){
+if(s.search('x') === ('x')){
   return true
 }
 else return false 
+}
+
+const sumSquares = (n) => {
+
 }
