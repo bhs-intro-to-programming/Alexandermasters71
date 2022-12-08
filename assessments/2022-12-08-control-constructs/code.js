@@ -8,7 +8,7 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
   let numOfX = 0
   for (let i = 0; i < s.length; i++) {
-    if (s.search(i) === ('x')) {
+    if (s.indexOf('s') === ('x')) {
       numOfX++
     }
   }
@@ -21,7 +21,7 @@ const timesTable = (n) => {
 }
 
 const containsX = (s) => {
-  if (s.search(/'x'/) === true ) {
+  if (s.search(/'x'/) === 's' ) {
     return true
   }
   else return false
