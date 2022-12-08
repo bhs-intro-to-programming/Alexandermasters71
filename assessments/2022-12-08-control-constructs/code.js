@@ -12,7 +12,3 @@ numOfX++
   }
   return numOfX
 }
-
-const containsX = (s) =>{
-
-}
