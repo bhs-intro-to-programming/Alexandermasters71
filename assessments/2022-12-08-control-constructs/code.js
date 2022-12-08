@@ -19,7 +19,7 @@ const timesTable = (n) => {
 }
 
 const containsX = (s) =>{
-if(s.search('x')=== true){
+if(s.substring('x')=== true){
   return true
 }
 else return false 
