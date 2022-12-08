@@ -7,22 +7,24 @@ const yesIfEven = (n) => {
 
 const countXs = (s) => {
   let numOfX = 0
-  if (s.search('x')) {
-    numOfX++
+  for (let i = 0; i < s.length; i++) {
+    if (s.search('x') === ('x')) {
+      numOfX++
+    }
   }
   return numOfX
 }
 
 const timesTable = (n) => {
   emit(n1 * n2)
-  return (n1,n2, (n * n))
+  return (n1, n2, (n * n))
 }
 
-const containsX = (s) =>{
-if(s.search('x') === ('x')){
-  return true
-}
-else return false 
+const containsX = (s) => {
+  if (s.search('x') === ('x')) {
+    return true
+  }
+  else return false
 }
 
 const sumSquares = (n) => {
