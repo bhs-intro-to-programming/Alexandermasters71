@@ -6,10 +6,13 @@ const yesIfEven = (n) => {
 }
 
 const countXs = (s) => {
-  for (let i = 0; i < s.length; i++) {
-    if (s.search('x')) {
-      i++
-    }
+  let numOfX=0
+  if(s.search('x')){
+numOfX++
   }
-  return i
+  return numOfX
+}
+
+const containsX = (s) =>{
+
 }
