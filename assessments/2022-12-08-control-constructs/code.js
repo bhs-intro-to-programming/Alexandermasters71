@@ -8,7 +8,7 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
   let numOfX = 0
   for (let i = 0; i < s.length; i++) {
-    if (s.search('x') === ('x')) {
+    if (s.search(i) === ('x')) {
       numOfX++
     }
   }
