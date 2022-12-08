@@ -17,3 +17,10 @@ const timesTable = (n) => {
   emit(n1 * n2)
   return (n1,n2, (n * n))
 }
+
+const containsX = (s) =>{
+if(s.search('x')=== true){
+  return true
+}
+else return false 
+}
