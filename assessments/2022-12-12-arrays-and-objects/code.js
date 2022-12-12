@@ -7,5 +7,5 @@ const makeBoard = () => {
 }
 
 const makeMove = (markXOrO,rowNumber,columNumber) => {
-return {markXOrO,rowNumber,columNumber}
+  return  {'markXOrO' :xOrO,'rowNumber':rowSpecifier,'columNumber' :columSpecifier}
 }
