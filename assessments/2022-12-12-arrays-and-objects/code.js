@@ -28,6 +28,6 @@ const allTheSame = (array) => {
 //}
 
 const recordMove = (array,move) => {
-let array = [0,0,0,move]
+ array = [0,0,0,move]
 return array
 }
