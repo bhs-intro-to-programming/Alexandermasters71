@@ -23,9 +23,9 @@ const allTheSame = (array) => {
   else return false
 }
 
-//const extractColumn = () => {
-
-//}
+const extractColumn = (array,index0To2) => {
+return array[index0To2,0] +array[index0To2,1]+array[index0To2,2]
+}
 
 const recordMove = (array,move) => {
  array = [0,0,0,move.x+move.y]
