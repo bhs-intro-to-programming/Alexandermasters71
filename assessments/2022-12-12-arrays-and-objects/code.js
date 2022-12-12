@@ -19,6 +19,7 @@ const allTheSame = (array) =>{
     if(array[1]===array[2]){
       return true
     }
-    else return false
+   
   }
+  else return false
 }
