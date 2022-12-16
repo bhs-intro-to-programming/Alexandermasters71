@@ -172,3 +172,9 @@ const bigWinners = (players) => {
   return superiorWinners
 }
 
+const firstHalf = (s) =>{
+return s.length/2
+}
+
+
+
