@@ -192,5 +192,6 @@ const firstAndLast = (s) => {
 return s[0]+ s.substring(s.length-1)
 }
 
-
-
+const randomCharacter = (s) =>{
+return MAth.rand(s[0])
+}
