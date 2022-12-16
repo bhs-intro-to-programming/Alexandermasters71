@@ -144,13 +144,21 @@ const totalWithTip = (subtotal, percentageTip) => {
   return { subtotal: totalExcludingTip, tip: tipValue, total: totalValue }
 }
 
-const higherPaid = (e1,e2) => {
-if(e1.salary < e2.salary){
-  return e2
-}
-else return e1
+const higherPaid = (e1, e2) => {
+  if (e1.salary < e2.salary) {
+    return e2
+  }
+  else return e1
 }
 
 const isWinner = (players) => {
-return players.score > 100
+  return players.score > 100
 }
+
+const updateWins = (players) => {
+  if (players.score > 100) {
+    players.wins++
+  }
+  return
+}
+
