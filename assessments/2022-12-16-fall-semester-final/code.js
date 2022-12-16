@@ -193,5 +193,5 @@ return s[0]+ s.substring(s.length-1)
 }
 
 const randomCharacter = (s) =>{
-return Math.rand(s[0])
+return Math.random(s[0])
 }
