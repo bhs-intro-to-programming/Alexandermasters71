@@ -98,27 +98,46 @@ const pair = (a, b) => {
 // Write your code here ...
 
 
-const makeRow = () =>{
-  return [ '','','']
+const makeRow = () => {
+  return ['', '', '']
 }
 
-const makeBoard = () =>{
-  return [makeRow(),makeRow(),makeRow()]
+const makeBoard = () => {
+  return [makeRow(), makeRow(), makeRow()]
 }
 
 const allTheSame = (element1, element2, element3) => {
   return element1 === element2 && element2 === element3
 }
 
-const extractColumn = () => {
-
+const extractColumn = (index) => {
+  let board = makeBoard()
+  return
 }
+
 
 const fillTimesTable = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < i; j++) {
-array.push()
+      array.push()
     }
   }
+
+}
+
+const yesIfEven = (n) => {
+  if (n % 2 === 0) {
+    return "yes"
+  }
+  else return 'no'
+}
+
+const logIfOk = (n) => {
+  if (isOk(n)) {
+log.isOK
+  }
+}
+
+const firstOk = (n) => {
 
 }
