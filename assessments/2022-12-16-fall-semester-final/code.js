@@ -98,6 +98,27 @@ const pair = (a, b) => {
 // Write your code here ...
 
 
-const allTheSame = (element1,element2,element3) => {
-return element1 === element2 && element2 === element3
+const makeRow = () =>{
+  return [ '','','']
+}
+
+const makeBoard = () =>{
+  return [makeRow(),makeRow(),makeRow()]
+}
+
+const allTheSame = (element1, element2, element3) => {
+  return element1 === element2 && element2 === element3
+}
+
+const extractColumn = () => {
+
+}
+
+const fillTimesTable = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < i; j++) {
+array.push()
+    }
+  }
+
 }
