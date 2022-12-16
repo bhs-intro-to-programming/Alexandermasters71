@@ -166,7 +166,7 @@ const bigWinners = (players) => {
   let superiorWinners = []
   for (let i = 0; i < players.length; i++) {
     if (players.wins > 10) {
-      superiorWinners.push(players)
+      players.push(superiorWinners)
     }
   }
   return superiorWinners
