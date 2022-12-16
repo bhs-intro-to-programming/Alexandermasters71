@@ -173,7 +173,7 @@ const bigWinners = (players) => {
 }
 
 const firstHalf = (s) =>{
-return s.length/2
+return s.substring/2
 }
 
 
