@@ -150,3 +150,7 @@ if(e1.salary < e2.salary){
 }
 else return e1
 }
+
+const isWinner = (players) => {
+return players.score > 100
+}
