@@ -138,6 +138,8 @@ log.isOK
   }
 }
 
-const firstOk = (n) => {
-
+const totalWithTip = (subtotal,percentageTip) =>{
+  let tip = subtotal*percentageTip
+  let total = tip + subtotal
+return {subtotal:totalExcludingTip,tip : tipValue , total : totalValue }
 }
