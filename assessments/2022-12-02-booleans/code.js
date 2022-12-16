@@ -13,3 +13,10 @@ return goingOutside && ! somewhereWarm
 const isVenomous = (isStriped,isBlueHeaded) => {
 return isStriped || ! isBlueHeaded
 }
+
+const okaySpeed= (speedLimit,carSpeed) =>{
+if (carSpeed <= speedLimit){
+  return true
+}
+else return false 
+}
