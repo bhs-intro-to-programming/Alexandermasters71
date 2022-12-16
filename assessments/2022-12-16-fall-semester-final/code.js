@@ -180,5 +180,9 @@ const secondHalf = (s) => {
   return s.substring(s.length/2)
 }
 
+const swapFrontAndBack = (s) =>{
+return secondHalf(s)+ firstHalf(s)
+}
+
 
 
