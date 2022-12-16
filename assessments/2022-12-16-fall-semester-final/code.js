@@ -158,12 +158,17 @@ const isWinner = (player) => {
 const updateWins = (player) => {
   if (player.score > 100) {
     player.wins++
-    console.log(player)
   }
   return
 }
 
 const bigWinners = (players) => {
-
+  let superiorWinners = []
+  for (let i = 0; i < players.wins.length; i++) {
+    if (players.wins > 10) {
+      superiorWinners.push(players)
+    }
+  }
+  return superiorWinners
 }
 
