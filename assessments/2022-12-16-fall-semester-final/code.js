@@ -96,3 +96,8 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+
+const allTheSame = (element1,element2,element3) => {
+return element1 === element2 && element2 === element3
+}
