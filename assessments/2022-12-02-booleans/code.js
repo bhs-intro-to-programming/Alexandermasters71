@@ -9,3 +9,7 @@ return goingToBeach || goingSkiing
 const needMittens = (goingOutside,somewhereWarm) =>{
 return goingOutside && ! somewhereWarm
 }
+
+const isVenomous = (isStriped,isBlueHeaded) => {
+return isStriped || ! isBlueHeaded
+}
