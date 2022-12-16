@@ -151,15 +151,19 @@ const higherPaid = (e1, e2) => {
   else return e1
 }
 
-const isWinner = (players) => {
-  return players.score > 100
+const isWinner = (player) => {
+  return player.score > 100
 }
 
-const updateWins = (players) => {
-  if (players.score > 100) {
-    players.wins++
-    console.log(players)
+const updateWins = (player) => {
+  if (player.score > 100) {
+    player.wins++
+    console.log(player)
   }
   return
+}
+
+const bigWinners = (players) => {
+
 }
 
