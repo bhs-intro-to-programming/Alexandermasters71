@@ -158,6 +158,7 @@ const isWinner = (players) => {
 const updateWins = (players) => {
   if (players.score > 100) {
     players.wins++
+    console.log(players)
   }
   return
 }
