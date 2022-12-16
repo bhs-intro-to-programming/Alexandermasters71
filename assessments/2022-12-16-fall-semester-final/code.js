@@ -134,12 +134,19 @@ const yesIfEven = (n) => {
 
 const logIfOk = (n) => {
   if (isOk(n)) {
-log.isOK
+    log.isOK
   }
 }
 
-const totalWithTip = (subtotal,percentageTip) =>{
-  let tip = subtotal*percentageTip
+const totalWithTip = (subtotal, percentageTip) => {
+  let tip = subtotal * percentageTip
   let total = tip + subtotal
-return {subtotal:totalExcludingTip,tip : tipValue , total : totalValue }
+  return { subtotal: totalExcludingTip, tip: tipValue, total: totalValue }
+}
+
+const higherPaid = (e1,e2) => {
+if(e1.salary < e2.salary){
+  return e2
+}
+else return e1
 }
