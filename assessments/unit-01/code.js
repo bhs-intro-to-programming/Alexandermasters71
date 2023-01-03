@@ -5,3 +5,37 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
+//const averageWeight = (a=totalWeight,b=numberOfItems) => {
+//return averageWeight = a/b
+//}
+
+//const hypotenuse = (a**2,b**2,c**2); {
+//return c**2 == a**2 + b**2 
+//} 
+
+//need to work on 3,4 & 5
+
+//let maxRadius = (width,height) => {
+  //return width = Math.floor, Math.abs
+//}
+
+ //const numcircles = (radius,width) => {
+   //const d=2
+   //const radius=2
+   //const offset = (r/2)
+   //const numcircles = Math.floor(width/d)
+    //drawfilledcircle(offset*r,height/2,r,'blue')
+ //}
+
+ //const offset = (widthInPixles,width) => { 
+//const 
+ //}
+
+ //const canSleepIN = (weekday,vacation) => {
+  // canSleepIN = ! weekday, canSleepIN = vacation 
+ //}
+
+
+const canGoToProm = (isSenior,invitedBySenior,isntSenior) => {
+   return canGoToProm = isSenior || invitedBySenior || ! isntSenior
+}
