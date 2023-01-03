@@ -96,3 +96,102 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+
+const makeRow = () => {
+  return ['', '', '']
+}
+
+const makeBoard = () => {
+  return [makeRow(), makeRow(), makeRow()]
+}
+
+const allTheSame = (element1, element2, element3) => {
+  return element1 === element2 && element2 === element3
+}
+
+const extractColumn = (index) => {
+  let board = makeBoard()
+  return
+}
+
+
+const fillTimesTable = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < i; j++) {
+      array.push()
+    }
+  }
+
+}
+
+const yesIfEven = (n) => {
+  if (n % 2 === 0) {
+    return "yes"
+  }
+  else return 'no'
+}
+
+const logIfOk = (n) => {
+  if (isOk(n)) {
+    log.isOK
+  }
+}
+
+const totalWithTip = (subtotal, percentageTip) => {
+  let tip = subtotal * percentageTip
+  let total = tip + subtotal
+  return { subtotal: totalExcludingTip, tip: tipValue, total: totalValue }
+}
+
+const higherPaid = (e1, e2) => {
+  if (e1.salary < e2.salary) {
+    return e2
+  }
+  else return e1
+}
+
+const isWinner = (player) => {
+  return player.score > 100
+}
+
+const updateWins = (player) => {
+  if (player.score > 100) {
+    player.wins++
+  }
+  return
+}
+
+const bigWinners = (players) => {
+  let superiorWinners = []
+  for (let i = 0; i < players.length; i++) {
+    if (players.wins > 10) {
+      players.push(superiorWinners)
+    }
+  }
+  return superiorWinners
+}
+
+const firstHalf = (s) =>{
+return s.substring(0,s.length/2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length/2)
+}
+
+const swapFrontAndBack = (s) =>{
+return secondHalf(s)+ firstHalf(s)
+}
+
+const upDown = (s) => {
+return s.toUpperCase()+s.toLowerCase()
+}
+
+const firstAndLast = (s) => {
+return s[0]+ s.substring(s.length-1)
+}
+
+const randomCharacter = (s) =>{
+return Math.random(s)
+}
