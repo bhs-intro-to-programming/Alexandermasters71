@@ -1,55 +1,22 @@
-const needHeavyCoat = (goingOutside, isCold) => {
-  if (goingOutside && isCold) {
-    return true
-  }
-  else return false
+const needHeavyCoat = (isgoingout,somewherecold) =>{
+return isgoingout && somewherecold
 }
 
-const needSunscreen = (goingToTheBeach, goingSkiing) => {
-  if (goingToTheBeach || goingSkiing) {
-    return true
-  }
-  else return false
+const needSunscreen = (goingToBeach,goingSkiing) =>{
+return goingToBeach || goingSkiing
 }
 
-const needMittens = (goingOutside, inWarmEnviroment) => {
-  if (goingOutside && !inWarmEnviroment) {
-    return true
-  }
-  else return false
+const needMittens = (goingOutside,somewhereWarm) =>{
+return goingOutside && ! somewhereWarm
 }
 
-const isVenomous = (striped, blueHead) => {
-  if (striped || !blueHead) {
-    return true
-  }
-  else return false
+const isVenomous = (isStriped,isBlueHeaded) => {
+return isStriped || ! isBlueHeaded
 }
 
-const okaySpeed = (speedLimit, carsSpeed) => {
-  if (Math.abs(carsSpeed - speedLimit === 10)) {
-    return true
-  }
-  else return false
-}
-
-const twiceAsExpensive = (price, price1) => {
-  if (price1 * 2 === price) {
-    return true
-  }
-  else return false
-}
-
-const winningRecord = (wins, losses, ties) => {
-  if (wins * 1 / 2 >= (losses + ties)) {
-    return true
-  }
-  else return false
-}
-
-const isMagicNumber = (n1) => {
-if(n1 === 42 || n1 === 17){
+const okaySpeed= (speedLimit,carSpeed) =>{
+if (carSpeed <= speedLimit){
   return true
 }
-else return false
+else return false 
 }
